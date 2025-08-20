@@ -24,7 +24,7 @@ services:
       dockerfile: Dockerfile
     container_name: server-perforaciones
     ports:
-      - '3016:3000'
+      - '3017:3000'
     volumes:
       - ./:/app
       - /app/node_modules
