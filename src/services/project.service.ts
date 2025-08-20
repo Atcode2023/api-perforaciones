@@ -76,13 +76,20 @@ class ProjectService {
   ): Promise<any> {
     const project = await this.proyects.findById(projectId);
     if (!project) throw new Error("Project not found");
-    const perforation = project.perforations.id(perforationId);
-    if (!perforation) throw new Error("Perforation not found");
 
+    const index = project.perforations.findIndex(
+      (p: any) => p._id?.toString() === perforationId
+    );
+    if (index === -1) throw new Error("Perforation not found");
+
+    const perforation: any = project.perforations[index];
     Object.assign(perforation, updateData);
 
     // Calcular campos actualizados
     this.calculatePerforationFields(perforation, project);
+
+    // Asegurar que Mongoose detecte cambios en el subdocumento
+    (project as any).markModified("perforations");
     project.has_changes = new Date();
     await project.save();
     return perforation;

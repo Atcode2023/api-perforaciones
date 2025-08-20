@@ -26,6 +26,7 @@ const authMiddleware = async (req: RequestWithUser, _: Response, next: NextFunct
           password: findUser.password,
           created_at: findUser.created_at,
           deleted_at: findUser.deleted_at,
+          last_sync: findUser.last_sync,
         };
         req.user = user;
         console.log(req.user, 'req.user');
