@@ -1,0 +1,6 @@
+2025-07-06 19:20:00 error: [POST] /projects >> StatusCode:: 400, Message:: start_time must be a number conforming to the specified constraints
+2025-07-06 19:20:25 error: [POST] /projects >> StatusCode:: 400, Message:: start_time must be a number conforming to the specified constraints
+2025-07-06 19:58:49 error: [GET] /projects >> StatusCode:: 401, Message:: Wrong authentication token
+2025-07-06 19:59:37 error: [PUT] /users/undefined >> StatusCode:: 400, Message:: property name should not exist
+2025-07-06 20:00:21 error: [PUT] /users/undefined >> StatusCode:: 400, Message:: property name should not exist
+2025-07-06 20:01:30 error: [PUT] /users/6866101bea3aa3fae7f4259f >> StatusCode:: 400, Message:: property name should not exist

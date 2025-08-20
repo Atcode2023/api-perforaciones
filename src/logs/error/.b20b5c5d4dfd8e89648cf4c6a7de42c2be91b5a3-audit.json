@@ -1,0 +1,85 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\error\\.b20b5c5d4dfd8e89648cf4c6a7de42c2be91b5a3-audit.json",
+    "files": [
+        {
+            "date": 1751405361379,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\error\\2025-07-01.log",
+            "hash": "207fda833d727c298317bd2f543cc0fed9b15c3ec0250482b8ff8783484b3d13"
+        },
+        {
+            "date": 1751508278422,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\error\\2025-07-02.log",
+            "hash": "bd883e8907bd148ff20a0674b740f6cbc5132f47434cfa311856ca01fd68de9e"
+        },
+        {
+            "date": 1751515217932,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\error\\2025-07-03.log",
+            "hash": "183c2423b1641e804d3cb9e2c27be12558611a9110a01b9ea5c7e4031cfad692"
+        },
+        {
+            "date": 1751601886066,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\error\\2025-07-04.log",
+            "hash": "e40618df141d7d331e79531a13d9d7111e052bc5baedb6a5429b087eec222449"
+        },
+        {
+            "date": 1751832804695,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\error\\2025-07-06.log",
+            "hash": "43ab65d9473696aac8d9960241e042aa156436093826364840fca3a11cd5e239"
+        },
+        {
+            "date": 1751889536418,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\error\\2025-07-07.log",
+            "hash": "493bbc9af6e131bd06fa30c0fba5447e79d1d40b9edba9614d52f261a665a997"
+        },
+        {
+            "date": 1752327144199,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\error\\2025-07-12.log",
+            "hash": "7fb007ab8ec5c2f729ff794f977a02bbeb54c85240b2150394a20583afad190e"
+        },
+        {
+            "date": 1752430381678,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\error\\2025-07-13.log",
+            "hash": "f80835f260325166af2abe734bd24540c199dd8426abb069ecee2b26b114e30a"
+        },
+        {
+            "date": 1752465656054,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\error\\2025-07-14.log",
+            "hash": "2893295c4a6c47d8aa45d3b4258f45f213ad879b553c4d7cc5057d75f6bcc36b"
+        },
+        {
+            "date": 1752553820580,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\error\\2025-07-15.log",
+            "hash": "6b7301801567bfd43692b28bfe3d63528014ba1ebed56b5b09c4d6d211753b78"
+        },
+        {
+            "date": 1753297062517,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\error\\2025-07-23.log",
+            "hash": "ef9070f677fb51c560cbd80ab1d9318806fa7347b5daaece38eb6ea44d2ad586"
+        },
+        {
+            "date": 1753642258598,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\error\\2025-07-27.log",
+            "hash": "712dc3b88bdbbf11a447db0c092883709c00032311e105b71743868e72df6354"
+        },
+        {
+            "date": 1754287370869,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\error\\2025-08-04.log",
+            "hash": "2f808a9ac9f14b0289efd2d8aabb87bf2a5cc2d2cdff4459180a6cd568589d8e"
+        },
+        {
+            "date": 1754798108710,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\error\\2025-08-09.log",
+            "hash": "9984a23030702f5904644f18f20ee94a108b51d398f034ea142e6ed712d841b8"
+        },
+        {
+            "date": 1754799303730,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\error\\2025-08-10.log",
+            "hash": "c894166bf64e5e2f7c03d2a200c3024ae0645791e27d91d9f2297759cb55e338"
+        }
+    ],
+    "hashType": "sha256"
+}

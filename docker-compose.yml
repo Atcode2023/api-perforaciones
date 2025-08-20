@@ -1,0 +1,151 @@
+services:
+  proxy-perforaciones:
+    image: nginx:alpine
+    container_name: proxy-perforaciones
+    ports:
+      - '3001:81'
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    restart: 'unless-stopped'
+    networks:
+      - backend-perforaciones
+    profiles: [dev]
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O - http://localhost:81 || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  server-perforaciones:
+    build:
+      context: ./
+      target: development-build-stage
+      dockerfile: Dockerfile
+    container_name: server-perforaciones
+    ports:
+      - '3016:3000'
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    restart: 'unless-stopped'
+    networks:
+      - backend-perforaciones
+    environment:
+      - PORT=3000
+      - NODE_ENV=development
+      - DB_HOST=mongo-perforaciones
+      - DB_PORT=27017
+      - DB_DATABASE=perforaciones
+      - DB_USERNAME=perforaciones
+      - DB_PASSWORD=Perforaciones2025
+    profiles: [dev]
+    healthcheck:
+      test: ["CMD-SHELL", "node -e \"require('net').connect(3000,'localhost').on('connect',()=>process.exit(0)).on('error',()=>process.exit(1))\""]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+    links:
+      - mongo-perforaciones
+    depends_on:
+      - mongo-perforaciones
+
+  mongo-perforaciones:
+    image: mongo:5.0
+    container_name: mongo-perforaciones
+    ports:
+      - '27021:27017'
+    volumes:
+      - data-perforaciones:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=perforaciones
+      - MONGO_INITDB_ROOT_PASSWORD=Perforaciones2025
+    networks:
+      - backend-perforaciones
+    profiles: [dev]
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.runCommand({ ping: 1 })"]
+      interval: 30s
+      timeout: 10s
+      retries: 10
+      start_period: 20s
+
+  # Production profile
+  proxy-perforaciones-prod:
+    image: nginx:alpine
+    container_name: proxy-perforaciones-prod
+    ports:
+      - '3002:81'
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    restart: 'unless-stopped'
+    networks:
+      - backend-perforaciones
+    profiles: [prod]
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O - http://localhost:81 || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  server-perforaciones-prod:
+    build:
+      context: ./
+      target: production-build-stage
+      dockerfile: Dockerfile
+    container_name: server-perforaciones-prod
+    # In prod expose only via Nginx; uncomment next line to also expose Node directly
+    ports:
+      - '3017:3000'
+    restart: 'unless-stopped'
+    networks:
+      - backend-perforaciones
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+      - DB_HOST=mongo-perforaciones-prod
+      - DB_PORT=27017
+      - DB_DATABASE=perforaciones
+      - DB_USERNAME=perforaciones
+      - DB_PASSWORD=Perforaciones2025
+    profiles: [prod]
+    depends_on:
+      - mongo-perforaciones-prod
+    healthcheck:
+      test: ["CMD-SHELL", "node -e \"require('net').connect(3000,'localhost').on('connect',()=>process.exit(0)).on('error',()=>process.exit(1))\""]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  mongo-perforaciones-prod:
+    image: mongo:5.0
+    container_name: mongo-perforaciones-prod
+    ports:
+      - '27022:27017'
+    volumes:
+      - data-perforaciones-prod:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=perforaciones
+      - MONGO_INITDB_ROOT_PASSWORD=Perforaciones2025
+    networks:
+      - backend-perforaciones
+    profiles: [prod]
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.runCommand({ ping: 1 })"]
+      interval: 30s
+      timeout: 10s
+      retries: 10
+      start_period: 20s
+
+networks:
+  backend-perforaciones:
+    driver: bridge
+
+volumes:
+  data-perforaciones:
+    driver: local
+  data-perforaciones-prod:
+    driver: local

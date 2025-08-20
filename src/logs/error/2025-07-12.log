@@ -1,0 +1,150 @@
+2025-07-12 09:32:46 error: [POST] /auth/login >> StatusCode:: 409, Message:: Password is not matching
+2025-07-12 10:06:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/proyect.model.ts[0m:[93m81[0m:[93m17[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m81[0m   rop_efec_kpi: ;
+[7m  [0m [91m                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/proyect.model.ts[0m:[93m81[0m:[93m17[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m81[0m   rop_efec_kpi: ;
+[7m  [0m [91m                ~[0m
+
+    at createTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-07-12 10:34:48 error: uncaughtException: Reflect.getMetadata is not a function
+TypeError: Reflect.getMetadata is not a function
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\src\decorators\type.decorator.ts:15:44
+    at Object.__decorate (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\tslib\tslib.js:99:114)
+    at Object.<anonymous> (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\dtos\project.dto.ts:185:3)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-07-12 10:35:49 error: uncaughtException: Reflect.getMetadata is not a function
+TypeError: Reflect.getMetadata is not a function
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\src\decorators\type.decorator.ts:15:44
+    at Object.__decorate (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\tslib\tslib.js:99:114)
+    at Object.<anonymous> (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\dtos\project.dto.ts:185:3)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-07-12 10:39:46 error: uncaughtException: Reflect.getMetadata is not a function
+TypeError: Reflect.getMetadata is not a function
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\src\decorators\type.decorator.ts:15:44
+    at Object.__decorate (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\tslib\tslib.js:99:114)
+    at Object.<anonymous> (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\dtos\project.dto.ts:185:3)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-07-12 10:40:10 error: uncaughtException: Reflect.getMetadata is not a function
+TypeError: Reflect.getMetadata is not a function
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\src\decorators\type.decorator.ts:15:44
+    at Object.__decorate (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\tslib\tslib.js:99:114)
+    at Object.<anonymous> (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\dtos\project.dto.ts:185:3)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-07-12 10:40:51 error: uncaughtException: Reflect.getMetadata is not a function
+TypeError: Reflect.getMetadata is not a function
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\src\decorators\type.decorator.ts:15:44
+    at Object.__decorate (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\tslib\tslib.js:99:114)
+    at Object.<anonymous> (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\dtos\project.dto.ts:185:3)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-07-12 10:48:50 error: uncaughtException: Reflect.getMetadata is not a function
+TypeError: Reflect.getMetadata is not a function
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\src\decorators\type.decorator.ts:15:44
+    at Object.__decorate (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\tslib\tslib.js:99:114)
+    at Object.<anonymous> (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\dtos\project.dto.ts:185:3)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-07-12 10:50:40 error: uncaughtException: Reflect.getMetadata is not a function
+TypeError: Reflect.getMetadata is not a function
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\src\decorators\type.decorator.ts:15:44
+    at Object.__decorate (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\tslib\tslib.js:99:114)
+    at Object.<anonymous> (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\dtos\project.dto.ts:185:3)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-07-12 10:52:43 error: [GET] /projects/686b051761972b2cc9c3dfd2 >> StatusCode:: 401, Message:: Wrong authentication token
+2025-07-12 10:54:53 error: [GET] /projects/686b051761972b2cc9c3dfd2 >> StatusCode:: 401, Message:: Wrong authentication token
+2025-07-12 10:56:58 error: [GET] /projects/686b051761972b2cc9c3dfd2 >> StatusCode:: 401, Message:: Wrong authentication token
+2025-07-12 10:57:10 error: [GET] /projects/686b051761972b2cc9c3dfd2 >> StatusCode:: 401, Message:: Wrong authentication token
+2025-07-12 10:58:55 error: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.values (<anonymous>)
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\middlewares\validation.middleware.ts:16:71
+    at Array.map (<anonymous>)
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\middlewares\validation.middleware.ts:16:32
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-12 11:03:31 error: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.values (<anonymous>)
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\middlewares\validation.middleware.ts:16:71
+    at Array.map (<anonymous>)
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\middlewares\validation.middleware.ts:16:32
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-12 11:05:46 error: [POST] /projects/686b051761972b2cc9c3dfd2/static-data >> StatusCode:: 400, Message:: Validation error
+2025-07-12 11:07:22 error: uncaughtException: Reflect.getMetadata is not a function
+TypeError: Reflect.getMetadata is not a function
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\src\decorators\type.decorator.ts:15:44
+    at Object.__decorate (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\tslib\tslib.js:99:114)
+    at Object.<anonymous> (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\dtos\project.dto.ts:185:3)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-07-12 11:07:34 error: uncaughtException: Reflect.getMetadata is not a function
+TypeError: Reflect.getMetadata is not a function
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\src\decorators\type.decorator.ts:15:44
+    at Object.__decorate (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\tslib\tslib.js:99:114)
+    at Object.<anonymous> (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\dtos\project.dto.ts:185:3)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)

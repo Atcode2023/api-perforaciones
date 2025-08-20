@@ -1,0 +1,316 @@
+2025-07-15 00:28:55 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 50.393 ms - -[0m
+2025-07-15 00:30:20 error: [POST] /users >> StatusCode:: 400, Message:: property role should not exist
+2025-07-15 00:30:20 info: [0mPOST /users [33m400[0m 18.080 ms - 44[0m
+2025-07-15 00:30:20 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 14.844 ms - -[0m
+2025-07-15 00:31:47 info: =================================
+2025-07-15 00:31:47 info: ======= ENV: development =======
+2025-07-15 00:31:47 info: 🚀 App listening on the port 3000
+2025-07-15 00:31:47 info: =================================
+2025-07-15 00:31:59 info: [0mPOST /users [32m201[0m 163.222 ms - 236[0m
+2025-07-15 00:31:59 info: [0mGET /users?search=&page=1&limit=5 [32m200[0m 45.335 ms - -[0m
+2025-07-15 00:32:09 info: [0mGET /users?search=&page=2&limit=5 [32m200[0m 20.464 ms - 301[0m
+2025-07-15 00:32:11 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 13.946 ms - -[0m
+2025-07-15 00:32:16 info: [0mGET /users?search=&page=2&limit=5 [36m304[0m 35.692 ms - -[0m
+2025-07-15 00:32:21 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 28.324 ms - -[0m
+2025-07-15 00:33:19 info: [0mGET /users?search=&page=2&limit=5 [36m304[0m 19.345 ms - -[0m
+2025-07-15 00:33:21 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 25.413 ms - -[0m
+2025-07-15 00:33:23 info: [0mGET /users/68675a23ef612341a3476f0e [32m200[0m 6.801 ms - 238[0m
+2025-07-15 00:33:36 error: [GET] /projects >> StatusCode:: 401, Message:: Wrong authentication token
+2025-07-15 00:33:36 info: [0mGET /projects?search=&page=1&limit=5 [33m401[0m 39.571 ms - 40[0m
+2025-07-15 00:34:29 error: [GET] /projects >> StatusCode:: 401, Message:: Wrong authentication token
+2025-07-15 00:34:29 info: [0mGET /projects?search=&page=1&limit=5 [33m401[0m 7.839 ms - 40[0m
+2025-07-15 00:35:04 info: [0mPOST /auth/login [32m200[0m 94.135 ms - 278[0m
+2025-07-15 00:35:04 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 13.660 ms - -[0m
+2025-07-15 00:35:07 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 85.879 ms - -[0m
+2025-07-15 00:40:56 info: =================================
+2025-07-15 00:40:56 info: ======= ENV: development =======
+2025-07-15 00:40:56 info: 🚀 App listening on the port 3000
+2025-07-15 00:40:56 info: =================================
+2025-07-15 00:41:47 info: =================================
+2025-07-15 00:41:47 info: ======= ENV: development =======
+2025-07-15 00:41:47 info: 🚀 App listening on the port 3000
+2025-07-15 00:41:47 info: =================================
+2025-07-15 00:45:38 info: =================================
+2025-07-15 00:45:38 info: ======= ENV: development =======
+2025-07-15 00:45:38 info: 🚀 App listening on the port 3000
+2025-07-15 00:45:38 info: =================================
+2025-07-15 00:45:45 info: =================================
+2025-07-15 00:45:45 info: ======= ENV: development =======
+2025-07-15 00:45:45 info: 🚀 App listening on the port 3000
+2025-07-15 00:45:45 info: =================================
+2025-07-15 00:46:28 info: =================================
+2025-07-15 00:46:28 info: ======= ENV: development =======
+2025-07-15 00:46:28 info: 🚀 App listening on the port 3000
+2025-07-15 00:46:28 info: =================================
+2025-07-15 00:47:36 info: =================================
+2025-07-15 00:47:36 info: ======= ENV: development =======
+2025-07-15 00:47:36 info: 🚀 App listening on the port 3000
+2025-07-15 00:47:36 info: =================================
+2025-07-15 00:51:11 info: [0mGET /users/role/users [32m200[0m 52.298 ms - -[0m
+2025-07-15 00:53:05 info: [0mGET /users/role/users [36m304[0m 10.815 ms - -[0m
+2025-07-15 00:53:06 info: [0mGET /users/role/users [36m304[0m 7.579 ms - -[0m
+2025-07-15 00:53:07 info: [0mGET /users/role/users [36m304[0m 8.425 ms - -[0m
+2025-07-15 00:53:13 info: [0mGET /users/role/users [36m304[0m 75.566 ms - -[0m
+2025-07-15 00:53:44 info: [0mPOST /projects [32m201[0m 193.224 ms - 43[0m
+2025-07-15 00:53:44 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 340.613 ms - -[0m
+2025-07-15 00:56:23 info: =================================
+2025-07-15 00:56:23 info: ======= ENV: development =======
+2025-07-15 00:56:23 info: 🚀 App listening on the port 3000
+2025-07-15 00:56:24 info: =================================
+2025-07-15 00:56:43 info: =================================
+2025-07-15 00:56:43 info: ======= ENV: development =======
+2025-07-15 00:56:43 info: 🚀 App listening on the port 3000
+2025-07-15 00:56:43 info: =================================
+2025-07-15 00:56:53 info: =================================
+2025-07-15 00:56:53 info: ======= ENV: development =======
+2025-07-15 00:56:53 info: 🚀 App listening on the port 3000
+2025-07-15 00:56:53 info: =================================
+2025-07-15 00:57:05 error: [GET] /projects >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "Lucas" (type string) at path "_id" for model "User"
+2025-07-15 00:57:06 info: [0mGET /projects?search=&page=1&limit=5 [31m500[0m 1157.508 ms - 106[0m
+2025-07-15 00:57:41 error: [GET] /projects >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "Lucas" (type string) at path "_id" for model "User"
+2025-07-15 00:57:41 info: [0mGET /projects?search=&page=1&limit=5 [31m500[0m 304.951 ms - 106[0m
+2025-07-15 00:59:33 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 383.457 ms - -[0m
+2025-07-15 01:00:34 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 195.979 ms - -[0m
+2025-07-15 01:00:50 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 298.046 ms - -[0m
+2025-07-15 01:00:53 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 351.615 ms - -[0m
+2025-07-15 01:02:17 info: [0mGET /projects/68676e1f022edd14c03f91ae [32m200[0m 59.170 ms - -[0m
+2025-07-15 01:02:18 info: [0mGET /projects/68676e1f022edd14c03f91ae/report [36m304[0m 68.323 ms - -[0m
+2025-07-15 01:02:21 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 363.540 ms - -[0m
+2025-07-15 01:07:57 info: =================================
+2025-07-15 01:07:57 info: ======= ENV: development =======
+2025-07-15 01:07:57 info: 🚀 App listening on the port 3000
+2025-07-15 01:07:57 info: =================================
+2025-07-15 01:16:21 info: =================================
+2025-07-15 01:16:21 info: ======= ENV: development =======
+2025-07-15 01:16:21 info: 🚀 App listening on the port 3000
+2025-07-15 01:16:21 info: =================================
+2025-07-15 01:29:48 info: =================================
+2025-07-15 01:29:48 info: ======= ENV: development =======
+2025-07-15 01:29:48 info: 🚀 App listening on the port 3000
+2025-07-15 01:29:48 info: =================================
+2025-07-15 01:30:07 info: =================================
+2025-07-15 01:30:07 info: ======= ENV: development =======
+2025-07-15 01:30:07 info: 🚀 App listening on the port 3000
+2025-07-15 01:30:07 info: =================================
+2025-07-15 01:32:34 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 785.714 ms - -[0m
+2025-07-15 01:32:36 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 263.650 ms - -[0m
+2025-07-15 01:35:43 error: [GET] /projects >> StatusCode:: 401, Message:: Wrong authentication token
+2025-07-15 01:35:43 info: [0mGET /projects?search=&page=1&limit=5 [33m401[0m 32.883 ms - 40[0m
+2025-07-15 01:37:01 info: [0mPOST /auth/login [32m200[0m 315.714 ms - 278[0m
+2025-07-15 01:37:02 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 63.038 ms - -[0m
+2025-07-15 01:38:33 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 14.832 ms - -[0m
+2025-07-15 01:38:54 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 40.428 ms - -[0m
+2025-07-15 01:38:59 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 240.206 ms - -[0m
+2025-07-15 01:39:06 info: [0mGET /users/role/users [36m304[0m 21.864 ms - -[0m
+2025-07-15 01:39:13 info: [0mGET /users/role/users [36m304[0m 11.107 ms - -[0m
+2025-07-15 01:39:17 info: [0mGET /users/role/users [36m304[0m 17.762 ms - -[0m
+2025-07-15 01:39:21 info: [0mGET /users/role/users [36m304[0m 16.718 ms - -[0m
+2025-07-15 01:39:46 info: [0mGET /users/role/users [36m304[0m 34.400 ms - -[0m
+2025-07-15 01:39:50 info: [0mGET /users/role/users [36m304[0m 82.734 ms - -[0m
+2025-07-15 01:43:56 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 351.073 ms - -[0m
+2025-07-15 01:44:05 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 496.462 ms - -[0m
+2025-07-15 01:44:07 info: [0mGET /users/role/users [36m304[0m 11.852 ms - -[0m
+2025-07-15 01:44:19 info: [0mGET /users/role/users [36m304[0m 14.287 ms - -[0m
+2025-07-15 01:44:49 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 181.750 ms - -[0m
+2025-07-15 01:44:56 info: [0mGET /users/role/users [36m304[0m 73.346 ms - -[0m
+2025-07-15 01:45:32 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 884.435 ms - -[0m
+2025-07-15 01:45:34 info: [0mGET /users/role/users [36m304[0m 40.663 ms - -[0m
+2025-07-15 01:46:35 info: [0mGET /users/role/users [36m304[0m 66.282 ms - -[0m
+2025-07-15 01:46:46 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 256.431 ms - -[0m
+2025-07-15 01:46:49 info: [0mGET /users/role/users [36m304[0m 7.632 ms - -[0m
+2025-07-15 01:47:23 info: [0mPUT /projects/6875ded842c3de38f20e85ba [32m200[0m 92.283 ms - 528[0m
+2025-07-15 01:47:23 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 348.120 ms - -[0m
+2025-07-15 01:47:35 info: [0mGET /users/role/users [36m304[0m 18.909 ms - -[0m
+2025-07-15 01:47:39 info: [0mPUT /projects/6875ded842c3de38f20e85ba [32m200[0m 45.319 ms - 528[0m
+2025-07-15 01:47:39 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 830.644 ms - -[0m
+2025-07-15 01:49:51 info: [0mGET /users/role/users [36m304[0m 13.332 ms - -[0m
+2025-07-15 01:49:51 info: [0mGET /projects/6875ded842c3de38f20e85ba [32m200[0m 74.876 ms - -[0m
+2025-07-15 01:49:52 info: [0mGET /projects/6875ded842c3de38f20e85ba/report [32m200[0m 31.354 ms - 478[0m
+2025-07-15 01:49:55 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 477.639 ms - -[0m
+2025-07-15 01:49:57 info: [0mGET /users/role/users [36m304[0m 57.102 ms - -[0m
+2025-07-15 01:50:02 info: [0mPUT /projects/6875ded842c3de38f20e85ba [32m200[0m 86.031 ms - 528[0m
+2025-07-15 01:50:03 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 241.752 ms - -[0m
+2025-07-15 01:50:08 info: [0mGET /users/role/users [36m304[0m 40.617 ms - -[0m
+2025-07-15 01:50:14 info: [0mPUT /projects/6875ded842c3de38f20e85ba [32m200[0m 84.140 ms - 536[0m
+2025-07-15 01:50:14 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 292.942 ms - -[0m
+2025-07-15 01:50:17 info: [0mGET /users/role/users [36m304[0m 17.354 ms - -[0m
+2025-07-15 01:50:21 info: [0mPUT /projects/6875ded842c3de38f20e85ba [32m200[0m 26.176 ms - 536[0m
+2025-07-15 01:50:21 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 233.991 ms - -[0m
+2025-07-15 01:50:27 info: [0mGET /users/role/users [36m304[0m 23.511 ms - -[0m
+2025-07-15 01:50:37 info: [0mPUT /projects/6875ded842c3de38f20e85ba [32m200[0m 97.521 ms - 536[0m
+2025-07-15 01:50:37 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 567.213 ms - -[0m
+2025-07-15 01:50:41 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 445.210 ms - -[0m
+2025-07-15 01:50:44 info: [0mGET /users/role/users [36m304[0m 42.393 ms - -[0m
+2025-07-15 01:51:03 info: =================================
+2025-07-15 01:51:03 info: ======= ENV: development =======
+2025-07-15 01:51:03 info: 🚀 App listening on the port 3000
+2025-07-15 01:51:03 info: =================================
+2025-07-15 01:51:34 info: =================================
+2025-07-15 01:51:34 info: ======= ENV: development =======
+2025-07-15 01:51:34 info: 🚀 App listening on the port 3000
+2025-07-15 01:51:34 info: =================================
+2025-07-15 01:53:39 info: =================================
+2025-07-15 01:53:39 info: ======= ENV: development =======
+2025-07-15 01:53:39 info: 🚀 App listening on the port 3000
+2025-07-15 01:53:39 info: =================================
+2025-07-15 01:54:05 info: =================================
+2025-07-15 01:54:05 info: ======= ENV: development =======
+2025-07-15 01:54:05 info: 🚀 App listening on the port 3000
+2025-07-15 01:54:05 info: =================================
+2025-07-15 01:54:08 info: [0mPUT /projects/6875ded842c3de38f20e85ba [32m200[0m 179.758 ms - 536[0m
+2025-07-15 01:54:09 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 1012.749 ms - -[0m
+2025-07-15 01:54:13 info: [0mGET /users/role/users [36m304[0m 34.145 ms - -[0m
+2025-07-15 01:54:18 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 495.850 ms - -[0m
+2025-07-15 01:54:56 info: =================================
+2025-07-15 01:54:56 info: ======= ENV: development =======
+2025-07-15 01:54:56 info: 🚀 App listening on the port 3000
+2025-07-15 01:54:56 info: =================================
+2025-07-15 01:55:03 info: [0mGET /users/role/users [36m304[0m 54.921 ms - -[0m
+2025-07-15 01:55:08 info: [0mPUT /projects/6875ded842c3de38f20e85ba [32m200[0m 483.736 ms - 536[0m
+2025-07-15 01:55:09 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 951.960 ms - -[0m
+2025-07-15 01:55:52 info: [0mGET /users/role/users [36m304[0m 54.544 ms - -[0m
+2025-07-15 01:56:37 info: =================================
+2025-07-15 01:56:37 info: ======= ENV: development =======
+2025-07-15 01:56:37 info: 🚀 App listening on the port 3000
+2025-07-15 01:56:37 info: =================================
+2025-07-15 01:56:41 info: [0mPUT /projects/6875ded842c3de38f20e85ba [32m200[0m 396.537 ms - 539[0m
+2025-07-15 01:56:42 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 917.860 ms - -[0m
+2025-07-15 01:56:44 info: [0mGET /users/role/users [36m304[0m 24.429 ms - -[0m
+2025-07-15 01:56:49 info: [0mPUT /projects/6875ded842c3de38f20e85ba [32m200[0m 144.048 ms - 539[0m
+2025-07-15 01:56:50 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 335.156 ms - -[0m
+2025-07-15 01:57:05 info: [0mDELETE /projects/6875ded842c3de38f20e85ba [32m200[0m 30.728 ms - 103[0m
+2025-07-15 01:57:05 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 148.330 ms - -[0m
+2025-07-15 01:57:09 info: [0mGET /users/role/users [36m304[0m 101.478 ms - -[0m
+2025-07-15 01:58:01 info: [0mGET /users/role/users [36m304[0m 75.160 ms - -[0m
+2025-07-15 01:58:06 error: [PUT] /projects/686bebf89162bbb9db103e47 >> StatusCode:: 500, Message:: Project validation failed: perforations.0.formations: Path `formations` is required.
+2025-07-15 01:58:06 info: [0mPUT /projects/686bebf89162bbb9db103e47 [31m500[0m 97.870 ms - 98[0m
+2025-07-15 01:58:06 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 346.102 ms - -[0m
+2025-07-15 01:58:28 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 536.531 ms - -[0m
+2025-07-15 01:58:58 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 240.601 ms - -[0m
+2025-07-15 01:59:38 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 268.734 ms - -[0m
+2025-07-15 01:59:41 info: [0mGET /users/role/users [36m304[0m 49.606 ms - -[0m
+2025-07-15 01:59:48 error: [PUT] /projects/686bebf89162bbb9db103e47 >> StatusCode:: 500, Message:: Project validation failed: perforations.0.formations: Path `formations` is required.
+2025-07-15 01:59:48 info: [0mPUT /projects/686bebf89162bbb9db103e47 [31m500[0m 134.065 ms - 98[0m
+2025-07-15 01:59:49 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 339.862 ms - -[0m
+2025-07-15 02:00:08 info: [0mGET /users/role/users [36m304[0m 75.318 ms - -[0m
+2025-07-15 02:00:33 info: [0mDELETE /projects/686bebf89162bbb9db103e47 [32m200[0m 20.266 ms - 103[0m
+2025-07-15 02:00:33 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 243.655 ms - -[0m
+2025-07-15 02:00:35 info: [0mGET /users/role/users [36m304[0m 15.127 ms - -[0m
+2025-07-15 02:00:40 info: [0mPUT /projects/686b051761972b2cc9c3dfd2 [32m200[0m 116.694 ms - 875[0m
+2025-07-15 02:00:40 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 128.120 ms - -[0m
+2025-07-15 02:00:43 info: [0mGET /users/role/users [36m304[0m 12.464 ms - -[0m
+2025-07-15 02:00:49 info: [0mPUT /projects/68676e1f022edd14c03f91ae [32m200[0m 123.572 ms - -[0m
+2025-07-15 02:00:49 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 312.293 ms - -[0m
+2025-07-15 02:00:59 info: [0mGET /users/role/users [36m304[0m 7.725 ms - -[0m
+2025-07-15 02:01:10 error: [GET] /projects >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "/Juan/i" (type RegExp) at path "ing_night" for model "Project"
+2025-07-15 02:01:10 info: [0mGET /projects?search=Juan&page=1&limit=5 [31m500[0m 76.007 ms - 117[0m
+2025-07-15 02:01:44 info: =================================
+2025-07-15 02:01:44 info: ======= ENV: development =======
+2025-07-15 02:01:44 info: 🚀 App listening on the port 3000
+2025-07-15 02:01:44 info: =================================
+2025-07-15 02:01:49 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 633.075 ms - -[0m
+2025-07-15 02:01:52 info: [0mGET /projects?search=Juan&page=1&limit=5 [32m200[0m 165.433 ms - 995[0m
+2025-07-15 02:01:56 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 138.946 ms - -[0m
+2025-07-15 02:05:07 info: =================================
+2025-07-15 02:05:07 info: ======= ENV: development =======
+2025-07-15 02:05:07 info: 🚀 App listening on the port 3000
+2025-07-15 02:05:07 info: =================================
+2025-07-15 02:06:52 info: =================================
+2025-07-15 02:06:52 info: ======= ENV: development =======
+2025-07-15 02:06:52 info: 🚀 App listening on the port 3000
+2025-07-15 02:06:52 info: =================================
+2025-07-15 02:07:25 info: =================================
+2025-07-15 02:07:25 info: ======= ENV: development =======
+2025-07-15 02:07:25 info: 🚀 App listening on the port 3000
+2025-07-15 02:07:25 info: =================================
+2025-07-15 02:07:42 info: =================================
+2025-07-15 02:07:42 info: ======= ENV: development =======
+2025-07-15 02:07:42 info: 🚀 App listening on the port 3000
+2025-07-15 02:07:42 info: =================================
+2025-07-15 02:07:44 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 964.301 ms - -[0m
+2025-07-15 02:07:52 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 48.044 ms - -[0m
+2025-07-15 02:07:55 info: [0mGET /users/68675a23ef612341a3476f0e [36m304[0m 89.934 ms - -[0m
+2025-07-15 02:08:11 info: [0mPUT /users/68675a23ef612341a3476f0e [32m200[0m 191.722 ms - 238[0m
+2025-07-15 02:08:11 info: [0mGET /users?search=&page=1&limit=5 [32m200[0m 78.298 ms - -[0m
+2025-07-15 02:08:27 error: [POST] /auth/login >> StatusCode:: 409, Message:: This username mathias was not found
+2025-07-15 02:08:27 info: [0mPOST /auth/login [33m409[0m 22.199 ms - 49[0m
+2025-07-15 02:08:30 error: [POST] /auth/login >> StatusCode:: 409, Message:: This username mathias was not found
+2025-07-15 02:08:30 info: [0mPOST /auth/login [33m409[0m 18.449 ms - 49[0m
+2025-07-15 02:08:36 error: [POST] /auth/login >> StatusCode:: 409, Message:: This username mathias was not found
+2025-07-15 02:08:36 info: [0mPOST /auth/login [33m409[0m 32.667 ms - 49[0m
+2025-07-15 02:09:00 info: [0mPOST /auth/login [32m200[0m 280.943 ms - 279[0m
+2025-07-15 02:09:01 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 22.755 ms - -[0m
+2025-07-15 02:09:06 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 159.213 ms - 94[0m
+2025-07-15 02:09:21 info: [0mPOST /auth/login [32m200[0m 150.128 ms - 278[0m
+2025-07-15 02:09:21 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 57.107 ms - -[0m
+2025-07-15 02:09:25 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 162.233 ms - -[0m
+2025-07-15 02:09:29 info: [0mGET /projects/686b051761972b2cc9c3dfd2 [32m200[0m 254.917 ms - -[0m
+2025-07-15 02:09:30 info: [0mGET /projects/686b051761972b2cc9c3dfd2/report [32m200[0m 32.646 ms - 478[0m
+2025-07-15 02:09:33 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 386.146 ms - -[0m
+2025-07-15 02:09:35 info: [0mGET /projects/68676e1f022edd14c03f91ae [32m200[0m 46.142 ms - -[0m
+2025-07-15 02:09:36 info: [0mGET /projects/68676e1f022edd14c03f91ae/report [36m304[0m 189.679 ms - -[0m
+2025-07-15 02:09:41 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 159.302 ms - -[0m
+2025-07-15 02:09:44 info: [0mGET /users/role/users [32m200[0m 33.464 ms - -[0m
+2025-07-15 02:09:49 info: [0mPUT /projects/68676e1f022edd14c03f91ae [32m200[0m 242.473 ms - -[0m
+2025-07-15 02:09:49 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 172.344 ms - -[0m
+2025-07-15 02:10:02 info: [0mPOST /auth/login [32m200[0m 243.903 ms - 279[0m
+2025-07-15 02:10:02 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 31.463 ms - -[0m
+2025-07-15 02:10:05 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 66.554 ms - -[0m
+2025-07-15 02:10:44 info: [0mGET /projects/68676e1f022edd14c03f91ae [32m200[0m 30.348 ms - -[0m
+2025-07-15 02:10:44 info: [0mGET /projects/68676e1f022edd14c03f91ae/report [36m304[0m 73.538 ms - -[0m
+2025-07-15 02:12:52 info: =================================
+2025-07-15 02:12:52 info: ======= ENV: development =======
+2025-07-15 02:12:52 info: 🚀 App listening on the port 3000
+2025-07-15 02:12:52 info: =================================
+2025-07-15 02:13:32 info: [0mGET /projects/68676e1f022edd14c03f91ae [32m200[0m 385.123 ms - -[0m
+2025-07-15 02:13:33 info: [0mGET /projects/68676e1f022edd14c03f91ae/report [36m304[0m 58.199 ms - -[0m
+2025-07-15 02:14:56 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 160.784 ms - -[0m
+2025-07-15 02:14:56 info: [0mGET /projects/68676e1f022edd14c03f91ae/report [36m304[0m 71.170 ms - -[0m
+2025-07-15 02:14:59 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 190.060 ms - -[0m
+2025-07-15 02:14:59 info: [0mGET /projects/68676e1f022edd14c03f91ae/report [36m304[0m 29.514 ms - -[0m
+2025-07-15 02:15:13 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 60.046 ms - -[0m
+2025-07-15 02:15:15 info: [0mGET /projects/68676e1f022edd14c03f91ae/report [36m304[0m 22.521 ms - -[0m
+2025-07-15 02:21:39 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 90.693 ms - -[0m
+2025-07-15 02:21:39 info: [0mGET /projects/68676e1f022edd14c03f91ae/report [36m304[0m 96.678 ms - -[0m
+2025-07-15 02:23:01 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 96.989 ms - -[0m
+2025-07-15 02:23:01 info: [0mGET /projects/68676e1f022edd14c03f91ae/report [36m304[0m 26.556 ms - -[0m
+2025-07-15 02:28:31 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 95.265 ms - -[0m
+2025-07-15 02:28:31 info: [0mGET /projects/68676e1f022edd14c03f91ae/report [36m304[0m 21.411 ms - -[0m
+2025-07-15 02:29:43 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 302.669 ms - -[0m
+2025-07-15 02:31:07 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 294.106 ms - -[0m
+2025-07-15 02:31:19 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 68.052 ms - -[0m
+2025-07-15 02:31:19 info: [0mGET /projects/68676e1f022edd14c03f91ae/report [36m304[0m 162.345 ms - -[0m
+2025-07-15 02:34:40 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 133.174 ms - -[0m
+2025-07-15 02:34:40 info: [0mGET /projects/68676e1f022edd14c03f91ae/report [36m304[0m 16.364 ms - -[0m
+2025-07-15 02:36:12 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 42.198 ms - -[0m
+2025-07-15 02:36:12 info: [0mGET /projects/68676e1f022edd14c03f91ae/report [36m304[0m 14.795 ms - -[0m
+2025-07-15 02:37:06 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 26.278 ms - -[0m
+2025-07-15 02:37:07 info: [0mGET /projects/68676e1f022edd14c03f91ae/report [36m304[0m 13.347 ms - -[0m
+2025-07-15 02:37:23 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 306.401 ms - -[0m
+2025-07-15 02:37:24 info: [0mGET /projects/68676e1f022edd14c03f91ae/report [36m304[0m 167.844 ms - -[0m
+2025-07-15 02:37:27 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 73.240 ms - -[0m
+2025-07-15 02:37:27 info: [0mGET /projects/68676e1f022edd14c03f91ae/report [36m304[0m 20.077 ms - -[0m
+2025-07-15 02:37:28 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 74.192 ms - -[0m
+2025-07-15 02:38:04 info: [0mPOST /auth/login [32m200[0m 160.455 ms - 278[0m
+2025-07-15 02:38:05 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 17.788 ms - -[0m
+2025-07-15 02:38:11 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 116.254 ms - -[0m
+2025-07-15 02:38:11 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 12.710 ms - -[0m
+2025-07-15 02:38:12 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 60.124 ms - -[0m
+2025-07-15 02:38:15 info: [0mGET /users/role/users [36m304[0m 6.003 ms - -[0m
+2025-07-15 02:38:20 info: [0mGET /users/role/users [36m304[0m 7.131 ms - -[0m
+2025-07-15 02:38:23 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 30.587 ms - -[0m
+2025-07-15 02:38:23 info: [0mGET /projects/68676e1f022edd14c03f91ae/report [36m304[0m 12.343 ms - -[0m
+2025-07-15 02:46:07 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 22.335 ms - -[0m
+2025-07-15 10:15:26 info: =================================
+2025-07-15 10:15:26 info: ======= ENV: development =======
+2025-07-15 10:15:26 info: 🚀 App listening on the port 3000
+2025-07-15 10:15:26 info: =================================
+2025-07-15 10:15:32 info: [0mPOST /auth/login [32m200[0m 224.788 ms - 278[0m
+2025-07-15 10:15:33 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 93.763 ms - -[0m
+2025-07-15 10:16:56 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 42.747 ms - -[0m
+2025-07-15 10:21:40 info: [0mGET /users?search=Pedro&page=1&limit=5 [32m200[0m 24.987 ms - 301[0m
+2025-07-15 10:21:42 info: [0mGET /users?page=1&limit=5 [32m200[0m 20.830 ms - -[0m
+2025-07-15 10:21:44 info: [0mGET /users/68675a23ef612341a3476f0e [32m200[0m 13.866 ms - 238[0m
+2025-07-15 10:21:48 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 195.439 ms - -[0m
+2025-07-15 10:28:49 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 74.421 ms - -[0m
+2025-07-15 10:28:49 info: [0mGET /projects/68676e1f022edd14c03f91ae/report [36m304[0m 17.365 ms - -[0m

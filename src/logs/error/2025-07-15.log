@@ -1,0 +1,12 @@
+2025-07-15 00:30:20 error: [POST] /users >> StatusCode:: 400, Message:: property role should not exist
+2025-07-15 00:33:36 error: [GET] /projects >> StatusCode:: 401, Message:: Wrong authentication token
+2025-07-15 00:34:29 error: [GET] /projects >> StatusCode:: 401, Message:: Wrong authentication token
+2025-07-15 00:57:05 error: [GET] /projects >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "Lucas" (type string) at path "_id" for model "User"
+2025-07-15 00:57:41 error: [GET] /projects >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "Lucas" (type string) at path "_id" for model "User"
+2025-07-15 01:35:43 error: [GET] /projects >> StatusCode:: 401, Message:: Wrong authentication token
+2025-07-15 01:58:06 error: [PUT] /projects/686bebf89162bbb9db103e47 >> StatusCode:: 500, Message:: Project validation failed: perforations.0.formations: Path `formations` is required.
+2025-07-15 01:59:48 error: [PUT] /projects/686bebf89162bbb9db103e47 >> StatusCode:: 500, Message:: Project validation failed: perforations.0.formations: Path `formations` is required.
+2025-07-15 02:01:10 error: [GET] /projects >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "/Juan/i" (type RegExp) at path "ing_night" for model "Project"
+2025-07-15 02:08:27 error: [POST] /auth/login >> StatusCode:: 409, Message:: This username mathias was not found
+2025-07-15 02:08:30 error: [POST] /auth/login >> StatusCode:: 409, Message:: This username mathias was not found
+2025-07-15 02:08:36 error: [POST] /auth/login >> StatusCode:: 409, Message:: This username mathias was not found

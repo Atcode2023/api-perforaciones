@@ -1,0 +1,85 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\debug\\.a0943d1bd2e57dfacd94a9645e794c74dd1f88df-audit.json",
+    "files": [
+        {
+            "date": 1751405361374,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\debug\\2025-07-01.log",
+            "hash": "9f9d1bcc590c51d289edd047cd9fa22572c29569ccf5765fc2b2024f5283e7d0"
+        },
+        {
+            "date": 1751508278418,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\debug\\2025-07-02.log",
+            "hash": "a45e0a6659305da02683610cabb16d79dda2ebdf021e7fe9727c13858c23c542"
+        },
+        {
+            "date": 1751515217914,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\debug\\2025-07-03.log",
+            "hash": "8ed0b27acdafa281a7fabd0676d1dadcf0a27b11fc2f39e51a55b9a0ed9edb6a"
+        },
+        {
+            "date": 1751601886031,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\debug\\2025-07-04.log",
+            "hash": "20ce1ce19187c808a426c93d52139dc965a93293e7793fd4add0d7a206dc0d8e"
+        },
+        {
+            "date": 1751832804683,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\debug\\2025-07-06.log",
+            "hash": "995b090a5516d5d3beebc763dcdf61f90e55e465eb2c2de00cae85cb4c8e9c7b"
+        },
+        {
+            "date": 1751889536413,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\debug\\2025-07-07.log",
+            "hash": "023991dad1a0a164961b192fdfbdb96aae1969b5a8ce8c850bf75de27c91ee64"
+        },
+        {
+            "date": 1752327144193,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\debug\\2025-07-12.log",
+            "hash": "d10dd234c457fd77e9d51d6f987850d82a038eff060408fcfa45cf897d81dadb"
+        },
+        {
+            "date": 1752430381673,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\debug\\2025-07-13.log",
+            "hash": "6de41d1a4645ce6b5b2446e7e842e7f881e8625a6cf6d244ca27ea8d51536e4d"
+        },
+        {
+            "date": 1752465656047,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\debug\\2025-07-14.log",
+            "hash": "ee59d990032c0393f200605914f5a37645e3c2ac2c565120e053e2ccaa380cdb"
+        },
+        {
+            "date": 1752553735826,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\debug\\2025-07-15.log",
+            "hash": "c1978f6886528f0d69ced6f1dc5df5f0501ed1c07a26d76f9adb31c22f13efb3"
+        },
+        {
+            "date": 1753297062509,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\debug\\2025-07-23.log",
+            "hash": "658b22cb394305a249136b3a0db6380680119c8350d55ea79b1df6bb5e10a0ae"
+        },
+        {
+            "date": 1753642258550,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\debug\\2025-07-27.log",
+            "hash": "c9d1479407ea6622c9b64f591d6b56924f16179d6f1bd74d5c8e706e1f88d895"
+        },
+        {
+            "date": 1754287370865,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\debug\\2025-08-04.log",
+            "hash": "03271e68129fc550513f7a059221764fdc45b01908131faeff6828c2a776c7a9"
+        },
+        {
+            "date": 1754798108706,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\debug\\2025-08-09.log",
+            "hash": "067d63bb3a5e57b3a648095901dbd07b87248732f7d73e2a5919463df51ea9c2"
+        },
+        {
+            "date": 1754799133281,
+            "name": "C:\\Users\\JTosman\\Documents\\Mis Trabajos\\api-perforaciones\\src\\logs\\debug\\2025-08-10.log",
+            "hash": "924e03b364d2bc2298503ff521702696d077f8ffe98f3d40ea9bd1da695ba441"
+        }
+    ],
+    "hashType": "sha256"
+}

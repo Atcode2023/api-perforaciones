@@ -1,0 +1,314 @@
+{
+  "cliente:": {
+    "type": "string",
+    "description": "Nombre del cliente"
+  },
+  "pozo": {
+    "type": "string",
+    "description": "Nombre del pozo"
+  },
+  "uwi_sidetrack": {
+    "type": "string",
+    "description": "Identificador del sidetrack del pozo"
+  },
+  "equipo": {
+    "type": "string",
+    "description": "Nombre del equipo de perforación"
+  },
+  "seccion": {
+    "type": "string",
+    "description": "Nombre de la sección del pozo"
+  },
+  "ing_dia": {
+    "type": "string",
+    "description": "Ingeniero de día"
+  },
+  "ing_noche": {
+    "type": "string",
+    "description": "Ingeniero de noche"
+  },
+  "fecha_de_entrada": {
+    "type": "Date",
+    "description": "Fecha de entrada del registro"
+  },
+  "hora_de_entrada": {
+    "type": "string",
+    "format": "24 HS",
+    "description": "Hora de entrada en formato 24 horas"
+  },
+  "profundidad_de_entrada": {
+    "type": "number",
+    "format": "FT",
+    "description": "Profundidad de entrada en pies"
+  },
+  "fecha_de_salida": {
+    "type": "Date",
+    "description": "Fecha de salida del registro"
+  },
+  "profundidad_de_salida": {
+    "type": "number",
+    "format": "FT",
+    "description": "Profundidad de salida en pies"
+  },
+  "avances": {
+    "type": "number",
+    "format": "FT",
+    "description": "Avances totales en pies"
+  },
+  "bhas": [
+    {
+      "bha": {
+        "type": "objectId",
+        "description": "Identificador del conjunto de herramientas de fondo (BHA)"
+      },
+      "motor_od": {
+        "type": "string",
+        "description": "Motor de fondo"
+      },
+      "tipo_de_motor": {
+        "type": "string",
+        "description": "Tipo de motor"
+      },
+      "factor": {
+        "type": "number",
+        "format": "FT/HR",
+        "description": "Factor de tasa de penetración en pies por hora"
+      },
+      "trepano": {
+        "type": "string",
+        "description": "Trepano utilizado"
+      }
+    }
+  ],
+  "datos": [
+  {
+  "tipo_de_perfil_direccional": {
+    "type": "string",
+    "description": "Tipo de perfil direccional"
+  },
+  "formacion": {
+    "type": "string",
+    "description": "Formación geológica"
+  },
+  "bha": {
+    "type": "objectId",
+    "description": "Identificador del conjunto de herramientas de fondo (BHA)"
+  },
+  "created_at": {
+    "type": "Date",
+    "computed": true,
+    "description": "Fecha de creación",
+    "formula_raw": "=SI(F15='';'';F15)",
+    "formula": "Si la celda F15 está vacía, devuelve una cadena vacía. De lo contrario, devuelve el valor de la celda F15."
+  },
+  "from_time": {
+    "type": "string",
+    "computed": true,
+    "format": "24 HS",
+    "description": "Hora de inicio en formato 24 horas",
+    "formula_raw": "=SI(F16='';'';F16)",
+    "formula": "Si la celda F16 está vacía, devuelve una cadena vacía. De lo contrario, devuelve el valor de la celda F16."
+  },
+  "to_time": {
+    "type": "string",
+    "format": "24 HS",
+    "description": "Hora de finalización"
+  },
+  "time": {
+    "type": "string",
+    "format": "HS",
+    "computed": true,
+    "description": "Duración total",
+    "formula_raw": "=SI(K208='Comentario';'';SI(G208='';'';(SI(I208>I208;J208+1-I208;J208-I208)*24)))",
+    "formula": "Si la celda K208 contiene 'Comentario', devuelve una cadena vacía. Si la celda G208 está vacía, devuelve una cadena vacía. De lo contrario, calcula la diferencia entre J208 e I208 multiplicada por 24."
+  },
+  "actividad": {
+    "type": "string",
+    "description": "Descripción de la actividad"
+  },
+  "circula_fuera_de_fondo": {
+    "type": "string",
+    "format": "HS",
+    "computed": true,
+    "description": "Estado de circulación fuera de fondo",
+    "formula_raw": "=SI(K96='Circula';H96;'')",
+    "formula": "Si la celda K96 contiene 'Circula', devuelve el valor de H96. De lo contrario, devuelve una cadena vacía."
+  },
+  "desde": {
+    "type": "number",
+    "format": "MD",
+    "computed": true,
+    "description": "Medida desde",
+    "formula_raw": "=SI(O(K211=\"Rota\";K211=\"Desliza\");(SI((MAX(N$36:N210))>F$17;(MAX(N$36:N210));F$17));N210)",
+    "formula": "Devuelve el mayor valor entre el máximo del rango N$36:N210 y F$17 si K211 es 'Rota' o 'Desliza'; de lo contrario, devuelve N210."
+  },
+  "hasta": {
+    "type": "number",
+    "format": "MD",
+    "description": "Medida hasta"
+  },
+  "metros_perforados": {
+    "type": "number",
+    "format": "FT",
+    "computed": true,
+    "description": "Metros perforados en pies",
+    "formula_raw": "=SI(O(M211='';N211='');'';N211-M211)",
+    "formula": "Si las celdas M211 o N211 están vacías, devuelve una cadena vacía. De lo contrario, calcula la diferencia entre N211 y M211."
+  },
+  "rop_efectiva": {
+    "type": "number",
+    "format": "FT/HR",
+    "computed": true,
+    "description": "Tasa de penetración efectiva en pies por hora",
+    "formula_raw": "=SI(O(K211='Rota';K211='Desliza');SI(O(M211='';N211='');'';SI(K211='Comentario';'';SI(M211=N211;'';(O211/(H211)))));'')",
+    "formula": "Si K211 es 'Rota' o 'Desliza', calcula la tasa de penetración efectiva dividiendo O211 entre H211. Si las celdas M211 o N211 están vacías, devuelve una cadena vacía. Si K211 es 'Comentario', devuelve una cadena vacía."
+  },
+  "tipo_de_tf": {
+    "type": "string",
+    "description": "Tipo de herramienta de fondo"
+  },
+  "tfo": {
+    "type": "objectId",
+    "description": "Identificador de la herramienta de fondo (TFO)"
+  },
+  "rpm_superficie": {
+    "type": "number",
+    "format": "RPM",
+    "description": "Revoluciones por minuto en superficie"
+  },
+  "rpm_totales": {
+    "type": "number",
+    "format": "RPM",
+    "computed": true,
+    "description": "Revoluciones totales por minuto",
+    "formula_raw": "=SI(K42='Comentario';'';SI(D42='';'';SI(D42=$L$8;SI(V42='';SI(S42='';'';S42);(SI($L$11='';0;$L$11*V42))+SI(S42='';0;S42));SI(D42=$P$8;SI(V42='';SI(S42='';'';S42);SI(S42='';0;S42)+(SI($P$11='';0;$P$11*V42)));SI(D42=$T$8;SI(V42='';SI(S42='';'';S42);S42+(SI($T$11='';0;$T$11*V42)));SI(D42=$P$8;SI(V42='';SI(S42='';'';S42);SI(S42='';0;S42)+(SI($P$11='';0;$P$11*V42)));SI(D42=$L$24;SI(V42='';SI(S42='';'';S42);SI(S42='';0;S42)+(SI($L$27='';0;$L$27*V42)));SI(D42=$P$24;SI(V42='';SI(S42='';'';S42);SI(S42='';0;S42)+(SI($P$27='';0;$P$27*V42)));SI(D42=$AB$8;SI(V42='';SI(S42='';'';S42);SI(S42='';0;S42)+(SI($AB$11='';0;$AB$11*V42)));SI(D42=$AG$8;SI(V42='';SI(S42='';'';S42);SI(S42='';0;S42)+(SI($AG$11='';0;$AG$11*V42)));SI(D42=$AK$8;SI(V42='';SI(S42='';'';S42);SI(S42='';0;S42)+(SI($AK$11='';0;$AK$11*V42)));SI(D42=$T$24;SI(V42='';SI(S42='';'';S42);SI(S42='';0;S42)+(SI($T$27='';0;$T$27*V42)));SI(D42=$X$24;SI(V42='';SI(S42='';'';S42);SI(S42='';0;S42)+(SI($X$27='';0;$X$27*V42)));SI(D42=$X$8;SI(V42='';SI(S42='';'';S42);SI(S42='';0;S42)+(SI($X$11='';0;$X$11*V42))))))))))))))))) ",
+    "formula": "Si K42 contiene 'Comentario', devuelve una cadena vacía. Si D42 está vacía, devuelve una cadena vacía. De lo contrario, calcula las revoluciones totales por minuto según las condiciones especificadas."
+  },
+  "wob": {
+    "type": "number",
+    "format": "KIb",
+    "description": "Peso sobre la broca en kilopondios"
+  },
+  "caudal": {
+    "type": "number",
+    "format": "QPM",
+    "description": "Caudal en galones por minuto"
+  },
+  "tq_en_fondo": {
+    "type": "number",
+    "format": "KFT-LB",
+    "description": "Torque en fondo medido en kilopondios-pie"
+  },
+  "tq_fuera_de_fondo": {
+    "type": "number",
+    "format": "KFT-LB",
+    "description": "Torque fuera de fondo medido en kilopondios-pie"
+  },
+  "spp_en_fondo": {
+    "type": "number",
+    "format": "PSI",
+    "description": "Presión de superficie en fondo medida en libras por pulgada cuadrada"
+  },
+  "spp_fuera_de_fondo": {
+    "type": "number",
+    "format": "PSI",
+    "description": "Presión de superficie fuera de fondo medida en libras por pulgada cuadrada"
+  },
+  "presion_diferencial": {
+    "type": "number",
+    "format": "PSI",
+    "computed": true,
+    "description": "Presión diferencial calculada en libras por pulgada cuadrada",
+    "formula_raw": "=SI(O(Y118='';Z118='');'';SI(Y118=Z118;'';ABS(Y118-Z118)))",
+    "formula": "Si las celdas Y118 o Z118 están vacías, devuelve una cadena vacía. Si Y118 es igual a Z118, devuelve una cadena vacía. De lo contrario, devuelve el valor absoluto de la diferencia entre Y118 y Z118."
+  },
+  "peeg_en_fondo": {
+    "type": "number",
+    "format": "KIb",
+    "description": "Potencia efectiva en fondo medida en kilopondios"
+  },
+  "peeg_fuera_de_fondo": {
+    "type": "number",
+    "format": "KIb",
+    "description": "Potencia efectiva fuera de fondo medida en kilopondios"
+  },
+  "peeg_rotando": {
+    "type": "number",
+    "format": "KIb",
+    "description": "Potencia efectiva rotando medida en kilopondios"
+  },
+  "densidad_del_lodo": {
+    "type": "number",
+    "format": "PPG",
+    "description": "Densidad del lodo medida en libras por galón"
+  },
+  "turno": {
+    "type": "string",
+    "description": "Turno de trabajo"
+  },
+  "md": {
+    "type": "number",
+    "format": "FT",
+    "description": "Medida de profundidad medida en pies"
+  },
+  "tvd": {
+    "type": "number",
+    "format": "FT",
+    "description": "Medida vertical medida en pies"
+  },
+  "incl": {
+    "type": "number",
+    "format": "GRADOS",
+    "description": "Inclinación medida en grados"
+  },
+  "az": {
+    "type": "number",
+    "format": "GRADOS",
+    "description": "Azimut medida en grados"
+  },
+  "comentarios": {
+    "type": "string",
+    "description": "Comentarios adicionales"
+  },
+  "rop_kpi": {
+    "type": "number",
+    "format": "FT/HR",
+    "computed": true,
+    "description": "Tasa de penetración clave de rendimiento en pies por hora",
+    "formula_raw": "=SI(O(K45='Rota';K45='Desliza');SI(O(M45='';N45='');'';SI(K45='Comentario';'';SI(M45=N45;'';BUSCAR(M45;CK$12:CK$23;CL$12:CL$23))));'')",
+    "formula": "Si K45 es 'Rota' o 'Desliza', busca el valor de M45 en el rango CK$12:CK$23 y devuelve el valor correspondiente en CL$12:CL$23. Si las celdas M45 o N45 están vacías, devuelve una cadena vacía. Si K45 es 'Comentario', devuelve una cadena vacía."
+  },
+  "rop_efe_kpi": {
+    "type": "number",
+    "format": "FT/HR",
+    "computed": true,
+    "description": "Tasa de penetración efectiva clave de rendimiento en pies por hora",
+    "formula_raw": "=SI(O(K45='Rota';K45='Desliza';K45='Conexión';K45='Survey';K45='Extraordinario');SI(O(M45='';N45='');'';SI(K45='Comentario';'';SI(M45=N45;'';BUSCAR(M45;CM$12:CM$23;CN$12:CN$23))));'')",
+    "formula": "Si K45 es 'Rota', 'Desliza', 'Conexión', 'Survey' o 'Extraordinario', busca el valor de M45 en el rango CM$12:CM$23 y devuelve el valor correspondiente en CN$12:CN$23. Si las celdas M45 o N45 están vacías, devuelve una cadena vacía. Si K45 es 'Comentario', devuelve una cadena vacía."
+  },
+  "rop_viajes": {
+    "type": "number",
+    "format": "FT/HR",
+    "computed": true,
+    "description": "Tasa de penetración por viajes en pies por hora",
+    "formula_raw": "=SI(O(K174='RIH CSG';K174='RIH OH';K174='POOH CSG';K174= 'POOH OH');SI(O(K174='';K174='');'';SI(K174='Comentario';'';SI(M174=N174;'';ABS(O174/(H174)))));'')",
+    "formula": "Si K174 es 'RIH CSG', 'RIH OH', 'POOH CSG' o 'POOH OH', calcula la tasa de penetración dividiendo O174 entre H174. Si las celdas K174 están vacías, devuelve una cadena vacía. Si K174 es 'Comentario', devuelve una cadena vacía."
+  },
+  "rop_avg": {
+    "type": "number",
+    "format": "FT/HR",
+    "computed": true,
+    "description": "Tasa de penetración promedio en pies por hora",
+    "formula_raw": "=SI.ERROR(SI(AT157>0;AT157/AV157;'');'')",
+    "formula": "Si AT157 es mayor que 0, divide AT157 entre AV157. Si ocurre un error, devuelve una cadena vacía."
+  },
+  "pies_perforados_kpi": {
+    "type": "number",
+    "format": "FT",
+    "description": "Pies perforados clave de rendimiento"
+  }
+}
+]
+}
+
+

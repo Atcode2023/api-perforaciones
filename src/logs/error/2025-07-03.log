@@ -1,0 +1,122 @@
+2025-07-03 00:36:11 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 00:37:37 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 00:38:04 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 00:44:09 error: uncaughtException: await is only valid in async functions and the top level bodies of modules
+C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\controllers\project.controller.ts:22
+            const bha = await this.projectService.createBha(projectId, bhaData);
+                        ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+2025-07-03 00:44:20 error: uncaughtException: await is only valid in async functions and the top level bodies of modules
+C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\controllers\project.controller.ts:33
+            const perforation = await this.projectService.createPerforation(projectId, perforationData);
+                                ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+2025-07-03 00:44:31 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 00:44:34 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 00:45:15 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 00:45:45 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 00:51:35 error: uncaughtException: Bha is not defined
+ReferenceError: Bha is not defined
+    at Object.<anonymous> (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\models\proyect.model.ts:140:11)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\services\project.service.ts:2:1)
+2025-07-03 00:51:40 error: uncaughtException: Bha is not defined
+ReferenceError: Bha is not defined
+    at Object.<anonymous> (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\models\proyect.model.ts:140:11)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\services\project.service.ts:2:1)
+2025-07-03 00:52:15 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 00:52:17 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 00:55:39 error: [POST] /auth/login >> StatusCode:: 409, Message:: This username admin was not found
+2025-07-03 00:56:27 error: [POST] /auth/login >> StatusCode:: 409, Message:: This username admin was not found
+2025-07-03 00:58:56 error: [POST] /auth/login >> StatusCode:: 409, Message:: This username admin was not found
+2025-07-03 01:03:54 error: [POST] /auth/login >> StatusCode:: 500, Message:: Cannot destructure property 'token' of '(intermediate value)' as it is undefined.
+2025-07-03 01:05:17 error: [POST] /auth/login >> StatusCode:: 409, Message:: Password is not matching
+2025-07-03 01:09:46 error: [POST] /projects >> StatusCode:: 400, Message:: property username should not exist, property password should not exist, customer must be a string, well must be a string, uwi_sidetrack must be a string, equipment must be a string, section must be a string, ing_day must be a string, ing_night must be a string, start_date must be a Date instance, start_time must be a number conforming to the specified constraints, entry_depth must be a number conforming to the specified constraints
+2025-07-03 01:09:55 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 01:10:55 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 01:10:56 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 01:11:33 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 01:13:50 error: uncaughtException: project_service_1.ProjectService is not a constructor
+TypeError: project_service_1.ProjectService is not a constructor
+    at new ProjectController (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\controllers\project.controller.ts:6:27)
+    at new ProjectRoute (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\routes\project.route.ts:10:30)
+    at Object.<anonymous> (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\server.ts:10:3)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+2025-07-03 01:13:53 error: uncaughtException: project_service_1.ProjectService is not a constructor
+TypeError: project_service_1.ProjectService is not a constructor
+    at new ProjectController (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\controllers\project.controller.ts:6:27)
+    at new ProjectRoute (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\routes\project.route.ts:10:30)
+    at Object.<anonymous> (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\server.ts:10:3)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+2025-07-03 01:14:09 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 01:14:10 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 01:14:28 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 01:16:00 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 01:16:01 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 01:18:02 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 01:18:03 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 01:20:36 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 01:20:38 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 01:21:06 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 01:21:07 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 01:21:09 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 01:21:21 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 01:21:23 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 01:21:58 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 01:28:07 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 01:28:09 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 01:28:10 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')
+2025-07-03 01:28:58 error: [POST] /projects >> StatusCode:: 400, Message:: start_date must be a Date instance
+2025-07-03 01:32:03 error: [POST] /projects >> StatusCode:: 404, Message:: Authentication token missing
+2025-07-03 01:33:10 error: [POST] /projects >> StatusCode:: 404, Message:: Authentication token missing
+2025-07-03 01:33:17 error: [POST] /projects >> StatusCode:: 400, Message:: property username should not exist, property password should not exist, customer must be a string, well must be a string, uwi_sidetrack must be a string, equipment must be a string, section must be a string, ing_day must be a string, ing_night must be a string, start_date must be a string, start_time must be a number conforming to the specified constraints, entry_depth must be a number conforming to the specified constraints
+2025-07-03 01:33:24 error: [POST] /projects >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'constructor')

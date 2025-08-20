@@ -1,0 +1,60 @@
+2025-07-07 07:58:59 info: =================================
+2025-07-07 07:58:59 info: ======= ENV: development =======
+2025-07-07 07:58:59 info: 🚀 App listening on the port 3000
+2025-07-07 07:58:59 info: =================================
+2025-07-07 07:59:21 info: [0mPOST /auth/login [32m200[0m 465.010 ms - 278[0m
+2025-07-07 07:59:23 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 92.267 ms - -[0m
+2025-07-07 08:00:08 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 68.998 ms - -[0m
+2025-07-07 08:00:18 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 24.333 ms - -[0m
+2025-07-07 08:02:02 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 52.832 ms - -[0m
+2025-07-07 08:02:34 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 77.655 ms - -[0m
+2025-07-07 08:02:50 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 101.943 ms - -[0m
+2025-07-07 08:03:11 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 81.531 ms - -[0m
+2025-07-07 08:03:30 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 37.776 ms - -[0m
+2025-07-07 08:03:33 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 36.178 ms - -[0m
+2025-07-07 08:03:51 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 82.523 ms - -[0m
+2025-07-07 08:03:54 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 113.143 ms - -[0m
+2025-07-07 08:03:58 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 42.372 ms - -[0m
+2025-07-07 08:04:26 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 85.153 ms - -[0m
+2025-07-07 08:04:58 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 19.872 ms - -[0m
+2025-07-07 08:05:59 info: =================================
+2025-07-07 08:05:59 info: ======= ENV: development =======
+2025-07-07 08:05:59 info: 🚀 App listening on the port 3000
+2025-07-07 08:05:59 info: =================================
+2025-07-07 08:07:52 info: [0mPOST /projects/68676e1f022edd14c03f91ae/perforation [32m201[0m 244.803 ms - 808[0m
+2025-07-07 08:07:52 info: [0mGET /projects/68676e1f022edd14c03f91ae [32m200[0m 42.755 ms - -[0m
+2025-07-07 08:09:32 info: =================================
+2025-07-07 08:09:32 info: ======= ENV: development =======
+2025-07-07 08:09:32 info: 🚀 App listening on the port 3000
+2025-07-07 08:09:32 info: =================================
+2025-07-07 08:10:13 info: =================================
+2025-07-07 08:10:13 info: ======= ENV: development =======
+2025-07-07 08:10:13 info: 🚀 App listening on the port 3000
+2025-07-07 08:10:13 info: =================================
+2025-07-07 08:10:43 info: [0mGET /projects/68676e1f022edd14c03f91ae [32m200[0m 88.554 ms - -[0m
+2025-07-07 08:12:48 info: [0mPOST /auth/login [32m200[0m 154.713 ms - 278[0m
+2025-07-07 08:12:49 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 44.965 ms - -[0m
+2025-07-07 08:12:59 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 131.996 ms - -[0m
+2025-07-07 11:40:11 info: =================================
+2025-07-07 11:40:11 info: ======= ENV: development =======
+2025-07-07 11:40:12 info: 🚀 App listening on the port 3000
+2025-07-07 11:40:12 info: =================================
+2025-07-07 11:42:57 info: [0mPOST /auth/login [32m200[0m 221.617 ms - 278[0m
+2025-07-07 11:42:58 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 105.633 ms - -[0m
+2025-07-07 11:43:34 info: [0mGET /users?search=Jesu&page=1&limit=5 [32m200[0m 24.512 ms - 301[0m
+2025-07-07 11:44:01 error: [POST] /users >> StatusCode:: 400, Message:: property role should not exist
+2025-07-07 11:44:01 info: [0mPOST /users [33m400[0m 6.013 ms - 44[0m
+2025-07-07 11:44:01 info: [0mGET /users?search=Jesu&page=1&limit=5 [36m304[0m 23.080 ms - -[0m
+2025-07-07 11:44:07 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 77.416 ms - -[0m
+2025-07-07 11:44:15 info: [0mGET /users/68675a23ef612341a3476f0e [36m304[0m 12.908 ms - -[0m
+2025-07-07 11:44:29 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 79.540 ms - -[0m
+2025-07-07 11:47:04 info: [0mPOST /projects [32m201[0m 71.498 ms - 43[0m
+2025-07-07 11:47:04 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 65.007 ms - -[0m
+2025-07-07 11:47:23 info: [0mGET /projects/686bebf89162bbb9db103e47 [32m200[0m 25.638 ms - 327[0m
+2025-07-07 11:48:30 info: [0mPOST /projects/686bebf89162bbb9db103e47/bha [32m201[0m 78.472 ms - 114[0m
+2025-07-07 11:48:30 info: [0mGET /projects/686bebf89162bbb9db103e47 [32m200[0m 96.038 ms - 428[0m
+2025-07-07 11:52:25 info: [0mPOST /projects/686bebf89162bbb9db103e47/perforation [32m201[0m 64.973 ms - 781[0m
+2025-07-07 11:52:25 info: [0mGET /projects/686bebf89162bbb9db103e47 [32m200[0m 22.877 ms - -[0m
+2025-07-07 12:06:27 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 18.091 ms - -[0m
+2025-07-07 12:06:36 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 34.163 ms - -[0m
+2025-07-07 12:06:39 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 20.211 ms - -[0m

@@ -1,0 +1,571 @@
+2025-07-04 00:14:35 error: [POST] /auth/login >> StatusCode:: 409, Message:: Password is not matching
+2025-07-04 01:02:19 error: [PUT] /users/68675a03ef612341a3476f04 >> StatusCode:: 400, Message:: property userId should not exist
+2025-07-04 01:03:44 error: [PUT] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2025-07-04 01:10:20 error: [DELETE] /users/NaN >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "NaN" (type string) at path "_id" for model "User"
+2025-07-04 01:51:48 error: [POST] /projects >> StatusCode:: 404, Message:: Authentication token missing
+2025-07-04 01:54:13 error: [POST] /projects >> StatusCode:: 404, Message:: Authentication token missing
+2025-07-04 01:58:08 error: [POST] /projects >> StatusCode:: 500, Message:: Project validation failed: exit_depth: Path `exit_depth` is required., departure_date: Path `departure_date` is required.
+2025-07-04 02:04:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/project.controller.ts[0m:[93m1[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m1[0m   public getProjects = async (req: Request, res: Response, next: NextFunction) => {
+[7m [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/project.controller.ts[0m:[93m1[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m1[0m   public getProjects = async (req: Request, res: Response, next: NextFunction) => {
+[7m [0m [91m  ~~~~~~[0m
+
+    at createTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-07-04 02:04:49 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/project.controller.ts[0m:[93m1[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m1[0m   public getProjects = async (req: Request, res: Response, next: NextFunction) => {
+[7m [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/project.controller.ts[0m:[93m1[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m1[0m   public getProjects = async (req: Request, res: Response, next: NextFunction) => {
+[7m [0m [91m  ~~~~~~[0m
+
+    at createTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-07-04 02:05:03 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/project.controller.ts[0m:[93m1[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m1[0m   public getProjects = async (req: Request, res: Response, next: NextFunction) => {
+[7m [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/project.controller.ts[0m:[93m1[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m1[0m   public getProjects = async (req: Request, res: Response, next: NextFunction) => {
+[7m [0m [91m  ~~~~~~[0m
+
+    at createTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-07-04 02:15:50 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m1[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m1[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m  ~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m1[0m:[93m10[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m1[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m         ~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m1[0m:[93m41[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m1[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m                                        ~[0m
+[96msrc/services/project.service.ts[0m:[93m1[0m:[93m50[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m                                                 ~[0m
+[96msrc/services/project.service.ts[0m:[93m2[0m:[93m9[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m2[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m        ~[0m
+[96msrc/services/project.service.ts[0m:[93m2[0m:[93m21[0m - [91merror[0m[90m TS1005: [0m'{' expected.
+
+[7m2[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m                    ~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m2[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m2[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m                          ~~~[0m
+[96msrc/services/project.service.ts[0m:[93m2[0m:[93m62[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m2[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m                                                             ~[0m
+[96msrc/services/project.service.ts[0m:[93m3[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m3[0m     return await this.proyects.findById(projectId);
+[7m [0m [91m           ~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m3[0m:[93m51[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m3[0m     return await this.proyects.findById(projectId);
+[7m [0m [91m                                                  ~[0m
+[96msrc/services/project.service.ts[0m:[93m5[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m5[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m  ~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m5[0m:[93m10[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m5[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m         ~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m5[0m:[93m41[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m5[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m                                        ~[0m
+[96msrc/services/project.service.ts[0m:[93m5[0m:[93m50[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m5[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m                                                 ~[0m
+[96msrc/services/project.service.ts[0m:[93m6[0m:[93m9[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m6[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m        ~[0m
+[96msrc/services/project.service.ts[0m:[93m6[0m:[93m21[0m - [91merror[0m[90m TS1005: [0m'{' expected.
+
+[7m6[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m                    ~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m6[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m6[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m                          ~~~[0m
+[96msrc/services/project.service.ts[0m:[93m6[0m:[93m62[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m6[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m                                                             ~[0m
+[96msrc/services/project.service.ts[0m:[93m7[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m7[0m     return this.proyects.findById(projectId);
+[7m [0m [91m           ~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m7[0m:[93m45[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m7[0m     return this.proyects.findById(projectId);
+[7m [0m [91m                                            ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m1[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m1[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m  ~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m1[0m:[93m10[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m1[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m         ~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m1[0m:[93m41[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m1[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m                                        ~[0m
+[96msrc/services/project.service.ts[0m:[93m1[0m:[93m50[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m                                                 ~[0m
+[96msrc/services/project.service.ts[0m:[93m2[0m:[93m9[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m2[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m        ~[0m
+[96msrc/services/project.service.ts[0m:[93m2[0m:[93m21[0m - [91merror[0m[90m TS1005: [0m'{' expected.
+
+[7m2[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m                    ~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m2[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m2[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m                          ~~~[0m
+[96msrc/services/project.service.ts[0m:[93m2[0m:[93m62[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m2[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m                                                             ~[0m
+[96msrc/services/project.service.ts[0m:[93m3[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m3[0m     return await this.proyects.findById(projectId);
+[7m [0m [91m           ~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m3[0m:[93m51[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m3[0m     return await this.proyects.findById(projectId);
+[7m [0m [91m                                                  ~[0m
+[96msrc/services/project.service.ts[0m:[93m5[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m5[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m  ~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m5[0m:[93m10[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m5[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m         ~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m5[0m:[93m41[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m5[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m                                        ~[0m
+[96msrc/services/project.service.ts[0m:[93m5[0m:[93m50[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m5[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m                                                 ~[0m
+[96msrc/services/project.service.ts[0m:[93m6[0m:[93m9[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m6[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m        ~[0m
+[96msrc/services/project.service.ts[0m:[93m6[0m:[93m21[0m - [91merror[0m[90m TS1005: [0m'{' expected.
+
+[7m6[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m                    ~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m6[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m6[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m                          ~~~[0m
+[96msrc/services/project.service.ts[0m:[93m6[0m:[93m62[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m6[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m                                                             ~[0m
+[96msrc/services/project.service.ts[0m:[93m7[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m7[0m     return this.proyects.findById(projectId);
+[7m [0m [91m           ~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m7[0m:[93m45[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m7[0m     return this.proyects.findById(projectId);
+[7m [0m [91m                                            ~[0m
+
+    at createTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-07-04 02:15:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m1[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m1[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m  ~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m1[0m:[93m10[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m1[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m         ~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m1[0m:[93m41[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m1[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m                                        ~[0m
+[96msrc/services/project.service.ts[0m:[93m1[0m:[93m50[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m                                                 ~[0m
+[96msrc/services/project.service.ts[0m:[93m2[0m:[93m9[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m2[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m        ~[0m
+[96msrc/services/project.service.ts[0m:[93m2[0m:[93m21[0m - [91merror[0m[90m TS1005: [0m'{' expected.
+
+[7m2[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m                    ~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m2[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m2[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m                          ~~~[0m
+[96msrc/services/project.service.ts[0m:[93m2[0m:[93m62[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m2[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m                                                             ~[0m
+[96msrc/services/project.service.ts[0m:[93m3[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m3[0m     return this.proyects.findById(projectId);
+[7m [0m [91m           ~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m3[0m:[93m45[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m3[0m     return this.proyects.findById(projectId);
+[7m [0m [91m                                            ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m1[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m1[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m  ~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m1[0m:[93m10[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m1[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m         ~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m1[0m:[93m41[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m1[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m                                        ~[0m
+[96msrc/services/project.service.ts[0m:[93m1[0m:[93m50[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1[0m   public async findProjectById(projectId: string): Promise<Project | null> {
+[7m [0m [91m                                                 ~[0m
+[96msrc/services/project.service.ts[0m:[93m2[0m:[93m9[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m2[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m        ~[0m
+[96msrc/services/project.service.ts[0m:[93m2[0m:[93m21[0m - [91merror[0m[90m TS1005: [0m'{' expected.
+
+[7m2[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m                    ~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m2[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m2[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m                          ~~~[0m
+[96msrc/services/project.service.ts[0m:[93m2[0m:[93m62[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m2[0m     if (!projectId) throw new Error('Project ID is required');
+[7m [0m [91m                                                             ~[0m
+[96msrc/services/project.service.ts[0m:[93m3[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m3[0m     return this.proyects.findById(projectId);
+[7m [0m [91m           ~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m3[0m:[93m45[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m3[0m     return this.proyects.findById(projectId);
+[7m [0m [91m                                            ~[0m
+
+    at createTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-07-04 02:16:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m18[0m:[93m1[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m18[0m import { IOptions, QueryResult } from "../paginate/paginate";
+[7m  [0m [91m~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m18[0m:[93m1[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m18[0m import { IOptions, QueryResult } from "../paginate/paginate";
+[7m  [0m [91m~~~~~~[0m
+
+    at createTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-07-04 02:16:10 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/project.controller.ts[0m:[93m1[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m1[0m   public getProjectById = async (req: Request, res: Response, next: NextFunction) => {
+[7m [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/project.controller.ts[0m:[93m1[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m1[0m   public getProjectById = async (req: Request, res: Response, next: NextFunction) => {
+[7m [0m [91m  ~~~~~~[0m
+
+    at createTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-07-04 02:16:16 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/project.controller.ts[0m:[93m1[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m1[0m   public getProjectById = async (req: Request, res: Response, next: NextFunction) => {
+[7m [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/project.controller.ts[0m:[93m1[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m1[0m   public getProjectById = async (req: Request, res: Response, next: NextFunction) => {
+[7m [0m [91m  ~~~~~~[0m
+
+    at createTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-07-04 02:16:23 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/project.controller.ts[0m:[93m22[0m:[93m1[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m22[0m import { Request, Response, NextFunction } from 'express';
+[7m  [0m [91m~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/project.controller.ts[0m:[93m22[0m:[93m1[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m22[0m import { Request, Response, NextFunction } from 'express';
+[7m  [0m [91m~~~~~~[0m
+
+    at createTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-07-04 02:16:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/project.controller.ts[0m:[93m22[0m:[93m1[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m22[0m import { Request, Response, NextFunction } from 'express';
+[7m  [0m [91m~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/project.controller.ts[0m:[93m22[0m:[93m1[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m22[0m import { Request, Response, NextFunction } from 'express';
+[7m  [0m [91m~~~~~~[0m
+
+    at createTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-07-04 02:16:43 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/project.controller.ts[0m:[93m24[0m:[93m1[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m24[0m class ProjectController {
+[7m  [0m [91m~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/project.controller.ts[0m:[93m24[0m:[93m1[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m24[0m class ProjectController {
+[7m  [0m [91m~~~~~[0m
+
+    at createTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-07-04 02:16:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m18[0m:[93m1[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m18[0m import { IOptions, QueryResult } from "../paginate/paginate";
+[7m  [0m [91m~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m18[0m:[93m1[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m18[0m import { IOptions, QueryResult } from "../paginate/paginate";
+[7m  [0m [91m~~~~~~[0m
+
+    at createTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-07-04 02:17:09 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m15[0m:[93m1[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m15[0m import { IOptions, QueryResult } from "../paginate/paginate";
+[7m  [0m [91m~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m15[0m:[93m1[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m15[0m import { IOptions, QueryResult } from "../paginate/paginate";
+[7m  [0m [91m~~~~~~[0m
+
+    at createTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-07-04 03:06:32 error: [POST] /projects/68676e1f022edd14c03f91ae/perforation >> StatusCode:: 401, Message:: Wrong authentication token
+2025-07-04 03:06:32 error: [GET] /projects/68676e1f022edd14c03f91ae >> StatusCode:: 401, Message:: Wrong authentication token
+2025-07-04 03:07:45 error: [POST] /projects/68676e1f022edd14c03f91ae/perforation >> StatusCode:: 400, Message:: property bha should not exist, property tfo should not exist, pierced_feet_kpi must be a number conforming to the specified constraints
+2025-07-04 09:29:58 error: [GET] /projects/68676e1f022edd14c03f91ae >> StatusCode:: 401, Message:: Wrong authentication token
+2025-07-04 09:31:26 error: uncaughtException: string is not defined
+ReferenceError: string is not defined
+    at Object.<anonymous> (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\models\proyect.model.ts:163:20)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module.m._compile (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\services\project.service.ts:4:1)
+2025-07-04 09:38:11 error: [POST] /projects/68676e1f022edd14c03f91ae/perforation >> StatusCode:: 400, Message:: property bha should not exist, property tfo should not exist, pierced_feet_kpi must be a number conforming to the specified constraints
+2025-07-04 09:46:19 error: [POST] /projects/68676e1f022edd14c03f91ae/perforation >> StatusCode:: 400, Message:: property tfo should not exist
+2025-07-04 09:47:47 error: [POST] /projects/68676e1f022edd14c03f91ae/perforation >> StatusCode:: 500, Message:: Project validation failed: perforations.0.depth_from: Path `depth_from` is required., perforations.0.time: Path `time` is required., perforations.0.from_time: Path `from_time` is required.
+2025-07-04 10:19:36 error: uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at writeSync (node:fs:929:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+2025-07-04 10:19:36 error: uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at writeSync (node:fs:929:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at console.value (node:internal/console/constructor:305:16)
+    at console.log (node:internal/console/constructor:380:26)
+    at App.connectToDatabase (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\src\app.ts:66:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-04 10:19:36 error: uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at writeSync (node:fs:929:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at console.value (node:internal/console/constructor:305:16)
+    at console.log (node:internal/console/constructor:380:26)
+    at NativeCollection.$print (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:316:11)
+    at NativeCollection.<computed> [as createIndex] (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:226:14)
+    at create (C:\Users\JTosman\Documents\Mis Trabajos\api-perforaciones\node_modules\mongoose\lib\model.js:1757:34)

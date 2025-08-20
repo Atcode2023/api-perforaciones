@@ -1,0 +1,105 @@
+2025-08-04 02:02:54 info: =================================
+2025-08-04 02:02:54 info: ======= ENV: development =======
+2025-08-04 02:02:54 info: 🚀 App listening on the port 3000
+2025-08-04 02:02:54 info: =================================
+2025-08-04 02:03:46 info: [0mPOST /auth/login [32m200[0m 192.953 ms - 278[0m
+2025-08-04 02:03:47 info: [0mGET /users?search=&page=1&limit=5 [32m200[0m 101.766 ms - -[0m
+2025-08-04 02:04:15 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 204.378 ms - -[0m
+2025-08-04 02:05:01 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 62.869 ms - -[0m
+2025-08-04 02:05:02 info: [0mGET /projects/68676e1f022edd14c03f91ae/report [36m304[0m 27.496 ms - -[0m
+2025-08-04 02:05:20 info: =================================
+2025-08-04 02:05:20 info: ======= ENV: development =======
+2025-08-04 02:05:20 info: 🚀 App listening on the port 3000
+2025-08-04 02:05:20 info: =================================
+2025-08-04 02:05:50 info: =================================
+2025-08-04 02:05:50 info: ======= ENV: development =======
+2025-08-04 02:05:50 info: 🚀 App listening on the port 3000
+2025-08-04 02:05:50 info: =================================
+2025-08-04 02:06:58 info: =================================
+2025-08-04 02:06:58 info: ======= ENV: development =======
+2025-08-04 02:06:58 info: 🚀 App listening on the port 3000
+2025-08-04 02:06:58 info: =================================
+2025-08-04 02:07:18 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 85.837 ms - -[0m
+2025-08-04 02:08:01 info: [0mPOST /users [32m201[0m 153.545 ms - 247[0m
+2025-08-04 02:08:01 info: [0mGET /users?search=&page=1&limit=5 [32m200[0m 21.600 ms - -[0m
+2025-08-04 02:08:05 info: [0mGET /users?search=&page=2&limit=5 [32m200[0m 12.150 ms - 520[0m
+2025-08-04 02:08:10 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 14.440 ms - -[0m
+2025-08-04 02:08:12 info: [0mGET /users?search=&page=2&limit=5 [36m304[0m 12.429 ms - -[0m
+2025-08-04 02:08:24 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 154.442 ms - -[0m
+2025-08-04 02:08:56 info: =================================
+2025-08-04 02:08:56 info: ======= ENV: development =======
+2025-08-04 02:08:56 info: 🚀 App listening on the port 3000
+2025-08-04 02:08:56 info: =================================
+2025-08-04 02:09:39 info: =================================
+2025-08-04 02:09:39 info: ======= ENV: development =======
+2025-08-04 02:09:39 info: 🚀 App listening on the port 3000
+2025-08-04 02:09:39 info: =================================
+2025-08-04 02:10:03 info: =================================
+2025-08-04 02:10:03 info: ======= ENV: development =======
+2025-08-04 02:10:03 info: 🚀 App listening on the port 3000
+2025-08-04 02:10:03 info: =================================
+2025-08-04 02:10:15 info: =================================
+2025-08-04 02:10:15 info: ======= ENV: development =======
+2025-08-04 02:10:15 info: 🚀 App listening on the port 3000
+2025-08-04 02:10:15 info: =================================
+2025-08-04 02:10:29 info: =================================
+2025-08-04 02:10:29 info: ======= ENV: development =======
+2025-08-04 02:10:29 info: 🚀 App listening on the port 3000
+2025-08-04 02:10:29 info: =================================
+2025-08-04 02:10:34 info: =================================
+2025-08-04 02:10:34 info: ======= ENV: development =======
+2025-08-04 02:10:34 info: 🚀 App listening on the port 3000
+2025-08-04 02:10:34 info: =================================
+2025-08-04 02:10:41 info: =================================
+2025-08-04 02:10:41 info: ======= ENV: development =======
+2025-08-04 02:10:41 info: 🚀 App listening on the port 3000
+2025-08-04 02:10:41 info: =================================
+2025-08-04 02:10:50 info: =================================
+2025-08-04 02:10:50 info: ======= ENV: development =======
+2025-08-04 02:10:50 info: 🚀 App listening on the port 3000
+2025-08-04 02:10:50 info: =================================
+2025-08-04 02:17:09 info: [0mGET /users/role/users [32m200[0m 47.422 ms - -[0m
+2025-08-04 02:17:09 info: [0mGET /users/role/supervisor [32m200[0m 10.418 ms - 259[0m
+2025-08-04 02:17:23 info: [0mPUT /projects/68676e1f022edd14c03f91ae [32m200[0m 84.698 ms - -[0m
+2025-08-04 02:17:23 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 169.467 ms - -[0m
+2025-08-04 02:18:08 info: [0mGET /users/role/users [36m304[0m 47.647 ms - -[0m
+2025-08-04 02:18:08 info: [0mGET /users/role/supervisor [36m304[0m 17.789 ms - -[0m
+2025-08-04 02:18:12 info: [0mPUT /projects/68676e1f022edd14c03f91ae [32m200[0m 74.913 ms - -[0m
+2025-08-04 02:18:12 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 121.498 ms - -[0m
+2025-08-04 02:18:50 info: =================================
+2025-08-04 02:18:50 info: ======= ENV: development =======
+2025-08-04 02:18:50 info: 🚀 App listening on the port 3000
+2025-08-04 02:18:50 info: =================================
+2025-08-04 02:18:57 info: =================================
+2025-08-04 02:18:57 info: ======= ENV: development =======
+2025-08-04 02:18:57 info: 🚀 App listening on the port 3000
+2025-08-04 02:18:57 info: =================================
+2025-08-04 02:19:32 info: =================================
+2025-08-04 02:19:32 info: ======= ENV: development =======
+2025-08-04 02:19:32 info: 🚀 App listening on the port 3000
+2025-08-04 02:19:32 info: =================================
+2025-08-04 02:19:32 info: [0mGET /users/role/users [36m304[0m 47.819 ms - -[0m
+2025-08-04 02:19:32 info: [0mGET /users/role/supervisor [36m304[0m 7.901 ms - -[0m
+2025-08-04 02:19:35 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 218.227 ms - -[0m
+2025-08-04 02:19:44 info: [0mGET /users/role/users [36m304[0m 11.017 ms - -[0m
+2025-08-04 02:19:44 info: [0mGET /users/role/supervisor [36m304[0m 10.630 ms - -[0m
+2025-08-04 02:19:49 info: [0mPUT /projects/68676e1f022edd14c03f91ae [32m200[0m 85.522 ms - -[0m
+2025-08-04 02:19:49 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 107.046 ms - -[0m
+2025-08-04 02:23:16 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 97.861 ms - -[0m
+2025-08-04 02:23:19 info: [0mGET /users/role/users [36m304[0m 7.108 ms - -[0m
+2025-08-04 02:23:19 info: [0mGET /users/role/supervisor [36m304[0m 8.408 ms - -[0m
+2025-08-04 02:23:56 info: =================================
+2025-08-04 02:23:56 info: ======= ENV: development =======
+2025-08-04 02:23:56 info: 🚀 App listening on the port 3000
+2025-08-04 02:23:56 info: =================================
+2025-08-04 02:24:01 error: [GET] /projects >> StatusCode:: 500, Message:: Cannot populate path `supervisor` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-08-04 02:24:01 info: [0mGET /projects?search=&page=1&limit=5 [31m500[0m 123.710 ms - 135[0m
+2025-08-04 02:24:44 info: =================================
+2025-08-04 02:24:44 info: ======= ENV: development =======
+2025-08-04 02:24:44 info: 🚀 App listening on the port 3000
+2025-08-04 02:24:44 info: =================================
+2025-08-04 02:24:44 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 147.025 ms - -[0m
+2025-08-04 02:24:48 info: [0mGET /users/role/users [36m304[0m 14.469 ms - -[0m
+2025-08-04 02:24:48 info: [0mGET /users/role/supervisor [36m304[0m 12.104 ms - -[0m
+2025-08-04 02:25:22 info: [0mGET /users/role/users [36m304[0m 13.239 ms - -[0m
+2025-08-04 02:25:23 info: [0mGET /users/role/supervisor [36m304[0m 29.415 ms - -[0m

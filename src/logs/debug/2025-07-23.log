@@ -1,0 +1,16 @@
+2025-07-23 14:57:48 info: =================================
+2025-07-23 14:57:48 info: ======= ENV: development =======
+2025-07-23 14:57:48 info: 🚀 App listening on the port 3000
+2025-07-23 14:57:48 info: =================================
+2025-07-23 14:58:57 info: [0mPOST /auth/login [32m200[0m 174.182 ms - 278[0m
+2025-07-23 14:58:58 info: [0mGET /users?search=&page=1&limit=5 [32m200[0m 87.248 ms - -[0m
+2025-07-23 14:59:33 info: [0mGET /projects?search=&page=1&limit=5 [32m200[0m 175.065 ms - -[0m
+2025-07-23 14:59:38 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 26.789 ms - -[0m
+2025-07-23 15:00:44 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 114.302 ms - -[0m
+2025-07-23 15:09:19 info: [0mGET /projects/68676e1f022edd14c03f91ae [32m200[0m 81.603 ms - -[0m
+2025-07-23 15:09:19 info: [0mGET /projects/68676e1f022edd14c03f91ae/report [32m200[0m 14.990 ms - -[0m
+2025-07-23 15:15:43 info: [0mGET /users?search=&page=1&limit=5 [36m304[0m 15.473 ms - -[0m
+2025-07-23 15:15:54 info: [0mGET /projects?search=&page=1&limit=5 [36m304[0m 183.130 ms - -[0m
+2025-07-23 15:15:55 info: [0mGET /users/role/users [32m200[0m 7.836 ms - -[0m
+2025-07-23 15:16:32 info: [0mGET /projects/68676e1f022edd14c03f91ae [36m304[0m 49.069 ms - -[0m
+2025-07-23 15:16:32 info: [0mGET /projects/68676e1f022edd14c03f91ae/report [36m304[0m 50.935 ms - -[0m

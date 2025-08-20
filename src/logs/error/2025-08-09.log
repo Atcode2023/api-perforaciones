@@ -1,0 +1,2 @@
+2025-08-09 23:58:07 error: [POST] /auth/login >> StatusCode:: 409, Message:: This username supervisor was not found
+2025-08-09 23:58:29 error: [POST] /auth/login >> StatusCode:: 409, Message:: This username supervisor was not found
