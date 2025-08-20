@@ -46,4 +46,5 @@ networks:
 
 volumes:
   data:
-    driver: local
+    driver: local
+ 
