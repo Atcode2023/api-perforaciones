@@ -31,14 +31,14 @@ services:
     image: mongo
     container_name: mongo-perforaciones
     volumes:
-      - data:/data/dbV2Boutique
+      - data:/data/dbPerforaciones
     ports:
       - '27032:27017'
     networks:
       - backend
     environment:
-      - MONGO_INITDB_ROOT_USERNAME=boutique
-      - MONGO_INITDB_ROOT_PASSWORD=B0ut1quE$2025$
+      - MONGO_INITDB_ROOT_USERNAME=perforaciones
+      - MONGO_INITDB_ROOT_PASSWORD=Perforaciones2025
 
 networks:
   backend:
