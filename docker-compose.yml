@@ -76,7 +76,7 @@ services:
     image: nginx:alpine
     container_name: proxy-perforaciones-prod
     ports:
-      - '3002:81'
+      - '3040:81'
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf
     restart: 'unless-stopped'
