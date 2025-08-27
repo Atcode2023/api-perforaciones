@@ -38,6 +38,10 @@ tslib_1.__decorate([
 tslib_1.__decorate([
     (0, class_validator_1.IsString)(),
     tslib_1.__metadata("design:type", String)
+], CreateProjectDto.prototype, "supervisor", void 0);
+tslib_1.__decorate([
+    (0, class_validator_1.IsString)(),
+    tslib_1.__metadata("design:type", String)
 ], CreateProjectDto.prototype, "start_date", void 0);
 tslib_1.__decorate([
     (0, class_validator_1.IsNumber)(),

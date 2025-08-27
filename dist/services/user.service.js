@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
-const HttpException_1 = require("@exceptions/HttpException");
-const user_model_1 = tslib_1.__importDefault(require("@models/user.model"));
-const util_1 = require("@utils/util");
+const HttpException_1 = require("../exceptions/HttpException");
+const user_model_1 = tslib_1.__importDefault(require("../models/user.model"));
+const util_1 = require("../utils/util");
 const bcrypt_1 = require("bcrypt");
 class UserService {
     constructor() {
@@ -58,6 +58,22 @@ class UserService {
             throw new HttpException_1.HttpException(409, "User doesn't exist");
         await user.softDelete();
         return user;
+    }
+    async getAllUserRoleUsers() {
+        const users = await this.users.find({ role: 'USER', deleted_at: null });
+        return users;
+    }
+    async getAllUserRoleSupervisor() {
+        const users = await this.users.find({ role: 'SUPERVISOR', deleted_at: null });
+        return users;
+    }
+    async updateUserLastSync(userId, userData) {
+        if ((0, util_1.isEmpty)(userData))
+            throw new HttpException_1.HttpException(400, 'userData is empty');
+        const updateUserById = await this.users.findByIdAndUpdate(userId, userData, { new: true });
+        if (!updateUserById)
+            throw new HttpException_1.HttpException(409, "User doesn't exist");
+        return updateUserById;
     }
 }
 exports.default = UserService;

@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.asyncLocalStorage = void 0;
 const tslib_1 = require("tslib");
-const _config_1 = require("@config");
-const HttpException_1 = require("@exceptions/HttpException");
+const _config_1 = require("../config");
+const HttpException_1 = require("../exceptions/HttpException");
 const user_model_1 = tslib_1.__importDefault(require("../models/user.model"));
 const async_hooks_1 = require("async_hooks");
 const jsonwebtoken_1 = require("jsonwebtoken");
@@ -25,6 +25,7 @@ const authMiddleware = async (req, _, next) => {
                     password: findUser.password,
                     created_at: findUser.created_at,
                     deleted_at: findUser.deleted_at,
+                    last_sync: findUser.last_sync,
                 };
                 req.user = user;
                 console.log(req.user, 'req.user');

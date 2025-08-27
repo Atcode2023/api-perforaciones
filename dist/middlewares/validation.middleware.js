@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const HttpException_1 = require("@exceptions/HttpException");
+const HttpException_1 = require("../exceptions/HttpException");
 const class_transformer_1 = require("class-transformer");
 const class_validator_1 = require("class-validator");
 const validationMiddleware = (type, value = 'body', skipMissingProperties = false, whitelist = true, forbidNonWhitelisted = true) => {

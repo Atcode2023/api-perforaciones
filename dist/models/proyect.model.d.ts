@@ -1,6 +1,6 @@
 import { ObjectId } from "mongodb";
 import { QueryResult } from "../paginate/paginate";
-import { Model } from "mongoose";
+import { Model, Types } from "mongoose";
 export interface Bha {
     _id: any;
     engine_od: string;
@@ -59,8 +59,9 @@ export interface Project {
     uwi_sidetrack: string;
     equipment: string;
     section: string;
-    ing_day: string;
-    ing_night: string;
+    ing_day: Types.ObjectId | string;
+    ing_night: Types.ObjectId | string;
+    supervisor?: Types.ObjectId | string;
     start_date: Date;
     start_time: number;
     entry_depth: number;
@@ -72,6 +73,7 @@ export interface Project {
     perforations: Perforations[];
     created_at?: Date;
     deleted_at?: Date | null;
+    has_changes: Date | null;
 }
 export interface ProjectStaticData {
     rop_efec_kpi: RopEfecKpi[];

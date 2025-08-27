@@ -1,4 +1,4 @@
-import { RequestWithUser } from '@interfaces/auth.interface';
+import { RequestWithUser } from '../interfaces/auth.interface';
 import { AsyncLocalStorage } from 'async_hooks';
 import { NextFunction, Response } from 'express';
 declare const asyncLocalStorage: AsyncLocalStorage<unknown>;

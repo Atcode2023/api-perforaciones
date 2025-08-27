@@ -25,4 +25,8 @@ tslib_1.__decorate([
     (0, class_validator_1.IsString)(),
     tslib_1.__metadata("design:type", String)
 ], CreateUserDto.prototype, "password", void 0);
+tslib_1.__decorate([
+    (0, class_validator_1.IsString)(),
+    tslib_1.__metadata("design:type", String)
+], CreateUserDto.prototype, "role", void 0);
 //# sourceMappingURL=users.dto.js.map

@@ -5,4 +5,5 @@ export declare class LoginUserDto {
 export declare class CreateUserDto {
     username: string;
     password: string;
+    role: string;
 }

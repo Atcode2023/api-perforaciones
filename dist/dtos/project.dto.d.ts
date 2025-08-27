@@ -6,6 +6,7 @@ export declare class CreateProjectDto {
     section: string;
     ing_day: string;
     ing_night: string;
+    supervisor?: string;
     start_date: string;
     start_time: number;
     entry_depth: number;

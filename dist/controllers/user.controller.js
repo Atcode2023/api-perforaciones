@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
-const pick_1 = tslib_1.__importDefault(require("@/utils/pick"));
-const user_service_1 = tslib_1.__importDefault(require("@services/user.service"));
+const pick_1 = tslib_1.__importDefault(require("../utils/pick"));
+const user_service_1 = tslib_1.__importDefault(require("../services/user.service"));
 class UsersController {
     constructor() {
         this.userService = new user_service_1.default();
@@ -53,6 +53,24 @@ class UsersController {
                 const userId = req.params.id;
                 const deleteUserData = await this.userService.deleteUser(userId);
                 res.status(200).json({ data: deleteUserData, message: 'deleted' });
+            }
+            catch (error) {
+                next(error);
+            }
+        };
+        this.getUserRoleUsers = async (req, res, next) => {
+            try {
+                const users = await this.userService.getAllUserRoleUsers();
+                res.status(200).json({ data: users, message: 'findUserRoleUsers' });
+            }
+            catch (error) {
+                next(error);
+            }
+        };
+        this.getUserRoleSupervisor = async (req, res, next) => {
+            try {
+                const users = await this.userService.getAllUserRoleSupervisor();
+                res.status(200).json({ data: users, message: 'findUserRoleUsers' });
             }
             catch (error) {
                 next(error);

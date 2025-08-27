@@ -3,6 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const paginate_1 = require("../paginate");
 const mongoose_1 = require("mongoose");
 const projectSchema = new mongoose_1.Schema({
+    has_changes: { type: Date, default: Date.now },
     customer: {
         type: String,
         required: true,
@@ -24,11 +25,18 @@ const projectSchema = new mongoose_1.Schema({
         required: true,
     },
     ing_day: {
-        type: String,
+        type: mongoose_1.Schema.Types.ObjectId,
+        ref: 'User',
         required: true,
     },
+    supervisor: {
+        type: mongoose_1.Schema.Types.ObjectId,
+        ref: 'User',
+        required: false, // Opcional
+    },
     ing_night: {
-        type: String,
+        type: mongoose_1.Schema.Types.ObjectId,
+        ref: 'User',
         required: true,
     },
     start_date: {
@@ -145,6 +153,7 @@ const projectSchema = new mongoose_1.Schema({
             rop_trips: { type: Number, default: 0 },
             rop_avg: { type: Number, default: 0 },
             pierced_feet_kpi: { type: Number, default: 0 },
+            formations: { type: String, required: true },
             footage: { type: Number, default: 0 }, // Distancia recorrida en pies
         },
     ],

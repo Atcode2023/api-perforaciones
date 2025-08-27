@@ -1,5 +1,5 @@
-import { LoginUserDto } from '@dtos/users.dto';
-import { TokenData } from '@interfaces/auth.interface';
+import { LoginUserDto } from '../dtos/users.dto';
+import { TokenData } from '../interfaces/auth.interface';
 import { User } from '../models/user.model';
 declare class AuthService {
     users: import("../models/user.model").IUserModel;

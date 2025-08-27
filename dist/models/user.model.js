@@ -15,7 +15,7 @@ const userSchema = new mongoose_1.Schema({
     role: {
         type: String,
         default: 'USER',
-        enum: ['ADMIN', 'USER'],
+        enum: ['ADMIN', 'USER', 'SUPERVISOR'],
     },
     created_at: {
         type: Date,
@@ -25,6 +25,7 @@ const userSchema = new mongoose_1.Schema({
         type: Date,
         default: null,
     },
+    last_sync: { type: Date, default: null },
 });
 userSchema.plugin(paginate_1.paginate);
 userSchema.methods.softDelete = async function () {

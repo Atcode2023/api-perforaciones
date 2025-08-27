@@ -7,6 +7,7 @@ export interface User {
     role: string;
     created_at: Date;
     deleted_at: Date | null;
+    last_sync: Date | null;
 }
 export interface IUserModel extends Model<User> {
     paginate(filter: Record<string, any>, options: Record<string, any>): Promise<QueryResult>;

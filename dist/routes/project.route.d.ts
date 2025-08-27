@@ -1,5 +1,5 @@
-import ProjectController from '../controllers/project.controller';
-import { Routes } from '../interfaces/routes.interface';
+import ProjectController from "../controllers/project.controller";
+import { Routes } from "../interfaces/routes.interface";
 declare class ProjectRoute implements Routes {
     path: string;
     router: import("express-serve-static-core").Router;
