@@ -124,6 +124,9 @@ export class CreatePerforationDto {
   @IsNumber()
   az: number;
 
+  @IsNumber()
+  dls: number;
+
   @IsString()
   comments: string;
 

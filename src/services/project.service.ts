@@ -44,6 +44,38 @@ class ProjectService {
     return bhaData;
   }
 
+  public async updateBha(
+    projectId: string,
+    bhaId: string,
+    updateData: Partial<Bha>
+  ): Promise<any> {
+    const project = await this.proyects.findById(projectId);
+    if (!project) throw new Error("Project not found");
+    const bha =
+      project.bhas.id(bhaId) ||
+      project.bhas.find((b: any) => b._id?.toString() === bhaId);
+    if (!bha) throw new Error("BHA not found");
+    Object.assign(bha, updateData);
+    (project as any).markModified("bhas");
+    project.has_changes = new Date();
+    await project.save();
+    return bha;
+  }
+
+  public async deleteBha(projectId: string, bhaId: string): Promise<any> {
+    const project = await this.proyects.findById(projectId);
+    if (!project) throw new Error("Project not found");
+    const index = project.bhas.findIndex(
+      (b: any) => b._id?.toString() === bhaId
+    );
+    if (index === -1) throw new Error("BHA not found");
+    project.bhas.splice(index, 1);
+    (project as any).markModified("bhas");
+    project.has_changes = new Date();
+    await project.save();
+    return { _id: bhaId, deleted: true };
+  }
+
   public async createPerforation(
     projectId: string,
     perforationData: Perforations

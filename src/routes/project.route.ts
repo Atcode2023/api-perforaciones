@@ -42,6 +42,16 @@ class ProjectRoute implements Routes {
       validationMiddleware(CreateBhaDto, "body"),
       this.projectController.createBha
     );
+    this.router.put(
+      `${this.path}/:projectId/bha/:bhaId`,
+      authMiddleware,
+      this.projectController.updateBha
+    );
+    this.router.delete(
+      `${this.path}/:projectId/bha/:bhaId`,
+      authMiddleware,
+      this.projectController.deleteBha
+    );
     this.router.post(
       `${this.path}/:projectId/perforation`,
       authMiddleware,

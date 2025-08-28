@@ -41,6 +41,43 @@ class ProjectController {
     }
   };
 
+  public updateBha = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const { projectId, bhaId } = req.params;
+      const updateData = req.body;
+      const bha = await this.projectService.updateBha(
+        projectId,
+        bhaId,
+        updateData
+      );
+      res
+        .status(200)
+        .json({ data: bha, message: "BHA actualizado correctamente" });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public deleteBha = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const { projectId, bhaId } = req.params;
+      const result = await this.projectService.deleteBha(projectId, bhaId);
+      res
+        .status(200)
+        .json({ data: result, message: "BHA eliminado correctamente" });
+    } catch (error) {
+      next(error);
+    }
+  };
+
   public createPerforation = async (
     req: Request,
     res: Response,

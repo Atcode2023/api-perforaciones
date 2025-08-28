@@ -54,7 +54,7 @@ export interface Perforations {
   pierced_feet_kpi: number;
   formations: string;
   footage?: number; // Distancia recorrida en pies
-  //DLS °/100p en survey
+  dls?: number;//DLS °/100p en survey
 }
 
 export interface Project {
@@ -282,6 +282,7 @@ const projectSchema: Schema = new Schema<Project, IUProyectModel>({
       tvd: { type: Number, default: 0 },
       incl: { type: Number, default: 0 },
       az: { type: Number, default: 0 },
+      dls: { type: Number, default: 0 },
       comments: { type: String, default: "" },
       rop_kpi: { type: Number, default: 0 },
       rop_efe_kpi: { type: Number, default: 0 },
