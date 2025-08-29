@@ -51,9 +51,7 @@ class ProjectService {
   ): Promise<any> {
     const project = await this.proyects.findById(projectId);
     if (!project) throw new Error("Project not found");
-    const bha =
-      project.bhas.id(bhaId) ||
-      project.bhas.find((b: any) => b._id?.toString() === bhaId);
+    const bha = project.bhas.find((b: any) => b._id?.toString() === bhaId);
     if (!bha) throw new Error("BHA not found");
     Object.assign(bha, updateData);
     (project as any).markModified("bhas");
@@ -869,18 +867,34 @@ class ProjectService {
   }
 
   private calculatePerforationFields(perforationData: any, project: any) {
-    // Calcular created_at y from_time
+    // Asegurar created_at
     if (!perforationData.created_at) {
       perforationData.created_at = new Date();
     }
-    const date = new Date(perforationData.created_at);
-    const hours = date.getHours();
-    const minutes = date.getMinutes();
-    const from_time = hours + minutes / 60;
-    perforationData.from_time = Number(from_time.toFixed(2));
-    perforationData.time = Number(
-      Math.abs(from_time - perforationData.to_time).toFixed(2)
-    );
+
+    // Si from_time viene manualmente (nuevo requerimiento) lo usamos; si no, lo derivamos de created_at
+    if (perforationData.from_time === undefined || perforationData.from_time === null) {
+      const date = new Date(perforationData.created_at);
+      const hours = date.getHours();
+      const minutes = date.getMinutes();
+      const derived = hours + minutes / 60;
+      perforationData.from_time = Number(derived.toFixed(2));
+    } else {
+      // Normalizar a número con 2 decimales
+      const manual = Number(perforationData.from_time);
+      perforationData.from_time = isNaN(manual) ? 0 : Number(manual.toFixed(2));
+    }
+
+    // Calcular tiempo (duración) usando diferencia absoluta entre to_time y from_time
+    if (perforationData.to_time !== undefined && perforationData.to_time !== null) {
+      const toTime = Number(perforationData.to_time);
+      perforationData.to_time = isNaN(toTime) ? 0 : Number(toTime.toFixed(2));
+      perforationData.time = Number(
+        Math.abs(perforationData.from_time - perforationData.to_time).toFixed(2)
+      );
+    } else {
+      perforationData.time = 0;
+    }
 
     // Calcular depth_from del último perforation
     const perforations = project.perforations;

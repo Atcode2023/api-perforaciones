@@ -62,6 +62,9 @@ export class CreatePerforationDto {
   bha: string;
 
   @IsNumber()
+  from_time: number;
+
+  @IsNumber()
   to_time: number;
 
   @IsString()
@@ -209,37 +212,37 @@ export class TotalRcsDto {
 }
 
 export class CreateProjectStaticDataDto {
-  
+
   @IsArray()
   @ValidateNested({ each: true })
   @Type(() => RopEfecKpiDto)
   rop_efec_kpi: RopEfecKpiDto[];
 
-  
+
   @IsArray()
   @ValidateNested({ each: true })
   @Type(() => RopAvgKpiDto)
   rop_avg_kpi: RopAvgKpiDto[];
 
-  
+
   @IsArray()
   @ValidateNested({ each: true })
   @Type(() => TripRopKpiDto)
   trip_rop_kpi: TripRopKpiDto[];
 
-  
+
   @IsArray()
   @ValidateNested({ each: true })
   @Type(() => ConexKpiDto)
   conex_kpi: ConexKpiDto[];
 
-  
+
   @IsArray()
   @ValidateNested({ each: true })
   @Type(() => ReviewKpiDto)
   review_kpi: ReviewKpiDto[];
 
-  
+
   @IsArray()
   @ValidateNested({ each: true })
   @Type(() => SurveyKpiDto)
